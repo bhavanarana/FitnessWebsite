@@ -51,6 +51,13 @@ body {
   font-weight: 400;
 }
 
+.sidebar .logo_content ul a :hover {
+  font-weight: 500;
+  font-size: 19px;
+  -webkit-transition: 0.1s ease;
+  transition: 0.1s ease;
+}
+
 .sidebar .slide_icon {
   position: absolute;
   right: 0;

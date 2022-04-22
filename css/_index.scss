@@ -43,6 +43,12 @@ body{
       color: $primary_3;
       font-size: 18px;
       font-weight: 400;
+      :hover{
+  font-weight: 500;
+  font-size: 19px;
+  transition: 0.1s ease;
+
+      }
     }
   }
 }
