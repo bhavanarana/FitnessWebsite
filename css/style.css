@@ -13,7 +13,7 @@ body {
 .sidebar {
   position: relative;
   min-height: 100%;
-  width: 240px;
+  width: 290px;
   background-color: #A91313;
   position: fixed;
   top: 0;
@@ -27,7 +27,7 @@ body {
 .sidebar .logo_content .logo .logo_name {
   margin-top: 7px;
   color: #FFFFFF;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 500;
 }
 
@@ -40,6 +40,10 @@ body {
   margin-bottom: 16px;
 }
 
+.sidebar .logo_content ul li .nav_home {
+  margin-left: 14px;
+}
+
 .sidebar .logo_content ul a {
   text-decoration: none;
   color: #FFFFFF;
@@ -50,5 +54,6 @@ body {
 .sidebar .slide_icon {
   position: absolute;
   right: 0;
+  top: 50%;
 }
 /*# sourceMappingURL=style.css.map */
