@@ -14,7 +14,7 @@ body {
   position: relative;
   min-height: 100%;
   width: 90px;
-  background-color: #A91313;
+  background-color: #a91313;
   position: fixed;
   top: 0;
   left: 0;
@@ -22,14 +22,16 @@ body {
 
 .sidebar .logo_content .logo {
   margin-top: 20px;
+  margin-left: 16px;
 }
 
 .sidebar .logo_content .logo .logo_name {
   margin-top: 7px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 26px;
   font-weight: 500;
   display: none;
+  margin-left: 14px;
 }
 
 .sidebar .logo_content ul {
@@ -49,7 +51,7 @@ body {
 
 .sidebar .logo_content ul a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 18px;
   font-weight: 400;
 }
@@ -68,5 +70,15 @@ body {
   cursor: pointer;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
+}
+
+.sidebar #log_in {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  cursor: pointer;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */

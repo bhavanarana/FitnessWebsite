@@ -1,70 +1,76 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: poppins;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
 }
 $primary_1: #000000;
-$primary_2: #A91313;
-$primary_3: #FFFFFF;
-body{
-  background-color:$primary_1 !important;
+$primary_2: #a91313;
+$primary_3: #ffffff;
+body {
+  background-color: $primary_1 !important;
 }
 
-.sidebar{
-  position:relative;
-    min-height: 100%;
-    width: 90px;
-    background-color: $primary_2;
-    position: fixed;
-    top: 0;
-    left: 0;
-   
-    .logo_content{ 
-      .logo{
-        margin-top: 20px;
-        .logo_name{
-          margin-top: 7px;
-          color: $primary_3;
-          font-size: 26px;
-          font-weight: 500;
-          display: none;
-          // transition: 1.8s ease;
-        }
-      }
-  ul{
-    margin-top: 130px;
-    list-style-type: none;
-    padding-left:22px !important; 
-    li{
-      // margin-right: 90px;
-      margin-bottom: 16px; //spacing between list items
-      .nav_home{
-        margin-left: 14px;
+.sidebar {
+  position: relative;
+  min-height: 100%;
+  width: 90px;
+  background-color: $primary_2;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  .logo_content {
+    .logo {
+      margin-top: 20px;
+      margin-left:16px;
+      .logo_name {
+        margin-top: 7px;
+        color: $primary_3;
+        font-size: 26px;
+        font-weight: 500;
         display: none;
+        margin-left:14px;
       }
     }
-    a{
-      text-decoration: none;
-      color: $primary_3;
-      font-size: 18px;
-      font-weight: 400;
-      :hover{
-  font-weight: 500;
-  font-size: 19px;
-  transition: 0.1s ease;
-
+    ul {
+      margin-top: 130px;
+      list-style-type: none;
+      padding-left: 22px !important;
+      li {
+        margin-bottom: 16px; //spacing between list items
+        .nav_home {
+          margin-left: 14px;
+          display: none;
+          // transition: 40s;
+        }
+      }
+      a {
+        text-decoration: none;
+        color: $primary_3;
+        font-size: 18px;
+        font-weight: 400;
+        :hover {
+          font-weight: 500;
+          font-size: 19px;
+          transition: 0.1s ease;
+        }
       }
     }
   }
-}
-.slide_icon{
-  position:absolute;
-  right:-19px;
-  // left: 100px;
-  top: 50%;
-  cursor:pointer;
-  transform: rotate(180deg);
-  
-}
+  .slide_icon {
+    position: absolute;
+    right: -19px;
+    top: 50%;
+    cursor: pointer;
+    transform: rotate(180deg);
+  }
+  #log_in{
+     position: absolute;
+    right: 0px;
+    top: 50%;
+    cursor: pointer;
+    transform: rotate(0deg);
+    display: none;
+  }
 }
