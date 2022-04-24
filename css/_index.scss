@@ -108,3 +108,27 @@ body {
     }
   }
 }
+//responsive website at mobile screen
+@media (max-width: 576px){
+  #landing-logo{
+    width: 140px !important;
+    height: 140px !important;
+    margin-left:90px !important;
+  }
+  .landing-logoName{
+    padding-left:90px !important;
+    font-size: 54px !important;
+  }
+  .landing-subtitle{
+    padding-left: 90px !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+  }
+  .landing-button{
+    margin-left: 90px !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+
+  }
+}
+

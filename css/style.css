@@ -118,4 +118,26 @@ body {
   color: white !important;
   border-radius: 13px;
 }
+
+@media (max-width: 576px) {
+  #landing-logo {
+    width: 140px !important;
+    height: 140px !important;
+    margin-left: 90px !important;
+  }
+  .landing-logoName {
+    padding-left: 90px !important;
+    font-size: 54px !important;
+  }
+  .landing-subtitle {
+    padding-left: 90px !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+  }
+  .landing-button {
+    margin-left: 90px !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+  }
+}
 /*# sourceMappingURL=style.css.map */
