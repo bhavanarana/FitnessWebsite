@@ -97,7 +97,7 @@ body {
       margin-bottom: 40px;
     }
     .landing-button {
-      font-weight: 600;
+      font-weight: 500 !important;
       width: fit-content;
       height: fit-content;
       font-size: 20px;
@@ -109,26 +109,46 @@ body {
   }
 }
 //responsive website at mobile screen
-@media (max-width: 576px){
-  #landing-logo{
+@media (min-width: 576px) {
+  #landing-logo {
     width: 140px !important;
     height: 140px !important;
-    margin-left:90px !important;
+    margin-left: 90px !important;
   }
-  .landing-logoName{
-    padding-left:90px !important;
+  .landing-logoName {
+    padding-left: 90px !important;
     font-size: 54px !important;
   }
-  .landing-subtitle{
+  .landing-subtitle {
     padding-left: 90px !important;
     font-size: 15px !important;
     font-weight: 500 !important;
   }
-  .landing-button{
+  .landing-button {
     margin-left: 90px !important;
     font-size: 15px !important;
     font-weight: 500 !important;
-
   }
 }
-
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  #landing-logo {
+    width: 160px !important;
+    height: 160px !important;
+    margin-left: 90px !important;
+  }
+  .landing-logoName {
+    padding-left: 90px !important;
+    font-size: 84px !important;
+  }
+  .landing-subtitle {
+    padding-left: 90px !important;
+    font-size: 22px !important;
+    font-weight: 600 !important;
+  }
+  .landing-button {
+    margin-left: 90px !important;
+    font-size: 22px !important;
+    font-weight: 600 !important;
+  }
+}
