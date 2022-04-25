@@ -1,0 +1,131 @@
+$primary_1: #000000;
+$primary_2: #a91313;
+$primary_3: #ffffff;
+@mixin card-heading {
+  color: $primary_3;
+  font-size: 27px;
+  text-align: center;
+  font-weight: 500;
+}
+@mixin card-img {
+  height: 150px;
+  width: 150px;
+  margin: auto;
+}
+@mixin card {
+  margin-top: 70px !important;
+  height: 250px;
+  border-radius: 18px !important;
+}
+.diet-heading {
+  color: $primary_3;
+  font-size: 64px;
+  font-weight: 600;
+}
+.veg {
+  @include card();
+  .veg-diet {
+    @include card-heading();
+  }
+  .veg-img {
+    @include card-img();
+  }
+}
+.non-veg {
+  @include card();
+  .non-veg-diet {
+    @include card-heading();
+  }
+  .non-veg-img {
+    @include card-img();
+  }
+}
+//responsive
+@media (min-width: 576px) {
+@mixin card-heading {
+    color: $primary_3;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+  }
+  @mixin card-img {
+    height: 110px;
+    width: 110px;
+    margin: auto;
+    margin-bottom: 25px!important;
+  }
+  @mixin card {
+    height: 220px !important;
+          width: 260px !important;
+        margin-top: 20px !important;
+        margin-left: 70px;
+        border-radius: 18px !important;
+        margin-bottom: 20px;
+  }
+  .diet-heading {
+    color: $primary_3;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 36px;
+  }
+  .veg {
+    @include card();
+    .veg-diet {
+      @include card-heading();
+    }
+    .veg-img {
+      @include card-img();
+    }
+  }
+  .non-veg {
+    @include card();
+    .non-veg-diet {
+      @include card-heading();
+    }
+    .non-veg-img {
+      @include card-img();
+    }
+  }
+}
+@media (min-width: 1200px){
+    @mixin card-heading {
+        color: $primary_3;
+        font-size: 27px;
+        text-align: center;
+        font-weight: 500;
+      }
+      @mixin card-img {
+        height: 140px;
+        width: 140px;
+        margin: auto;
+      }
+      @mixin card {
+        margin-top: 70px !important;
+        height: 250px !important;
+        border-radius: 18px !important;
+        width: 290px !important;
+      }
+      .diet-heading {
+        color: $primary_3;
+        font-size: 64px;
+        font-weight: 600;
+      }
+      .veg {
+        @include card();
+        .veg-diet {
+          @include card-heading();
+        }
+        .veg-img {
+          @include card-img();
+        }
+      }
+      .non-veg {
+        @include card();
+        .non-veg-diet {
+          @include card-heading();
+        }
+        .non-veg-img {
+          @include card-img();
+        }
+      }
+}
