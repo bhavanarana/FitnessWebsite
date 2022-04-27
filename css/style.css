@@ -297,4 +297,41 @@ body {
     margin: auto;
   }
 }
+
+.diet-button {
+  color: black !important;
+  background-color: #FFE600 !important;
+  font-weight: 600 !important;
+  width: 120px;
+  border-radius: 20px !important;
+  font-size: 22px !important;
+}
+
+.diet-button :hover {
+  -webkit-filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
+          filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
+  cursor: pointer !important;
+}
+
+.card {
+  margin: 0 auto;
+  height: 380px;
+  border-radius: 24px !important;
+}
+
+.img-bulk {
+  width: 210px !important;
+  height: 210px;
+  margin: 0 auto;
+}
+
+.back-button {
+  background-color: #8B0000 !important;
+  border-radius: 20px !important;
+  font-size: 21px !important;
+  font-weight: 600 !important;
+  color: white !important;
+  width: 90px;
+  margin-left: 60px;
+}
 /*# sourceMappingURL=style.css.map */
