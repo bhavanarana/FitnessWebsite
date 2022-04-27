@@ -11,6 +11,7 @@ body {
 }
 
 .sidebar {
+  z-index: 10;
   position: relative;
   min-height: 100%;
   width: 90px;
@@ -333,5 +334,14 @@ body {
   color: white !important;
   width: 90px;
   margin-left: 60px;
+}
+
+.bg-image {
+  background-image: url(/Images/diet-bg.svg);
+  background-size: 520px;
+  background-position: center 130px;
+  background-repeat: no-repeat;
+  z-index: -1;
+  position: relative;
 }
 /*# sourceMappingURL=style.css.map */

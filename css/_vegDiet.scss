@@ -1,5 +1,5 @@
 .diet-button{
-    color: black !important;
+color: black !important;
     background-color: #FFE600 !important;
     font-weight: 600 !important;
     width: 120px;
@@ -28,15 +28,14 @@
     color: white !important;
     width: 90px;
     margin-left: 60px;
-
-}
-// .bg-image{
-    // background-image: url(/Images/diet-bg.svg);
+} 
+ .bg-image{
+     background-image: url(/Images/diet-bg.svg);
+     background-size:520px; //resizes the image of background
     // // background-size: cover;
-    // background-repeat: no-repeat;
-    // height: 10px;
-    // width: 10px;
-//  height: 100vh;
-// --bs-bg-opacity:1;
-// }
+    background-position: center 130px; //center aligns background image
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: relative;
+ }
 
