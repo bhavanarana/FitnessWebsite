@@ -278,7 +278,7 @@ body {
   .veg .veg-img {
     height: 140px;
     width: 140px;
-    margin: auto;
+    margin: 0 auto;
   }
   .non-veg {
     margin-top: 70px !important;
@@ -295,53 +295,87 @@ body {
   .non-veg .non-veg-img {
     height: 140px;
     width: 140px;
-    margin: auto;
+    margin: 0 auto;
   }
 }
 
-.diet-button {
+.diet-hover-link {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.bg-image {
+  background-image: url(/Images/diet-bg.svg);
+  background-size: 480px;
+  background-position: center 120px;
+  background-repeat: no-repeat;
+  z-index: -1;
+  position: relative;
+}
+
+.bg-image .row .row .card {
+  margin: 0 auto;
+  height: 380px;
+  border-radius: 24px !important;
+}
+
+.bg-image .row .row .card .img-bulk {
+  width: 210px !important;
+  height: 210px;
+  display: block;
+  margin: auto;
+}
+
+.bg-image .row .row .card .card-body .diet-button {
   color: black !important;
-  background-color: #FFE600 !important;
+  background-color: #ffe600 !important;
   font-weight: 600 !important;
   width: 120px;
   border-radius: 20px !important;
   font-size: 22px !important;
 }
 
-.diet-button :hover {
+.bg-image .row .row .card .card-body .diet-button :hover {
   -webkit-filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
           filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
   cursor: pointer !important;
 }
 
-.card {
+.bg-image .row .row .card {
   margin: 0 auto;
   height: 380px;
   border-radius: 24px !important;
 }
 
-.img-bulk {
-  width: 210px !important;
-  height: 210px;
-  margin: 0 auto;
+.bg-image .row .row .card .card-body .diet-button {
+  color: black !important;
+  background-color: #ffe600 !important;
+  font-weight: 600 !important;
+  width: 120px;
+  border-radius: 20px !important;
+  font-size: 22px !important;
 }
 
-.back-button {
-  background-color: #8B0000 !important;
+.bg-image .row .row .card .card-body .diet-button :hover {
+  -webkit-filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
+          filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
+  cursor: pointer !important;
+}
+
+.bg-image .row .row .card .img-bulk {
+  width: 210px !important;
+  height: 210px;
+  display: block;
+  margin: auto;
+}
+
+.bg-image .back-button {
+  background-color: #8b0000 !important;
   border-radius: 20px !important;
   font-size: 21px !important;
   font-weight: 600 !important;
   color: white !important;
   width: 90px;
   margin-left: 60px;
-}
-
-.bg-image {
-  background-image: url(/Images/diet-bg.svg);
-  background-size: 520px;
-  background-position: center 130px;
-  background-repeat: no-repeat;
-  z-index: -1;
-  position: relative;
 }
 /*# sourceMappingURL=style.css.map */

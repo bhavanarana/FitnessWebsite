@@ -97,7 +97,7 @@ $primary_3: #ffffff;
       @mixin card-img {
         height: 140px;
         width: 140px;
-        margin: auto;
+        margin: 0 auto;
       }
       @mixin card {
         margin-top: 70px !important;
@@ -112,6 +112,7 @@ $primary_3: #ffffff;
       }
       .veg {
         @include card();
+
         .veg-diet {
           @include card-heading();
         }
@@ -128,4 +129,8 @@ $primary_3: #ffffff;
           @include card-img();
         }
       }
+}
+.diet-hover-link{
+    text-decoration: none;     
+    display: inline-block; 
 }
