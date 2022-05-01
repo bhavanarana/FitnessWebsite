@@ -312,8 +312,12 @@ body {
   position: relative;
 }
 
+.bg-image .row .row {
+  margin-left: 15px;
+}
+
 .bg-image .row .row .card {
-  margin: 0 auto;
+  margin-left: 40px;
   height: 380px;
   border-radius: 24px !important;
 }
@@ -341,7 +345,7 @@ body {
 }
 
 .bg-image .row .row .card {
-  margin: 0 auto;
+  margin-left: 40px;
   height: 380px;
   border-radius: 24px !important;
 }
@@ -377,17 +381,16 @@ body {
   color: white !important;
   width: 90px;
   margin-left: 60px;
+  margin-top: 80px;
 }
 
-@media (max-width: 576px) {
+@media (min-width: 276px) and (max-width: 768px) {
   .container .row .diet-heading {
     font-size: 30px;
-    margin-left: 40px;
+    margin-left: 45px !important;
   }
   .container .row .row .card {
-    margin: 0 auto;
-    height: 380px;
-    border-radius: 24px !important;
+    margin-left: 60px !important;
     height: 300px !important;
     margin-bottom: 40px !important;
     width: 240px !important;
@@ -405,7 +408,7 @@ body {
     margin-bottom: 30px !important;
   }
   .container .row .row .card {
-    margin: 0 auto;
+    margin-left: 40px;
     height: 380px;
     border-radius: 24px !important;
     margin-left: 130px;
@@ -438,89 +441,26 @@ body {
     font-weight: 600 !important;
     color: white !important;
     width: 90px;
-    margin-left: 230px;
+    margin-left: 225px !important;
   }
 }
 
-@media (max-width: 768px) {
-  .container .row .diet-heading {
-    font-size: 30px;
-    margin-left: 40px;
-  }
-  .container .row .row .card {
-    margin-left: 160px !important;
-    height: 380px;
+@media (min-width: 769px) and (max-width: 1200px) {
+  container .row .row .card {
+    margin-left: 760px !important;
+    height: 680px !important;
     border-radius: 24px !important;
     height: 300px !important;
     margin-bottom: 40px !important;
     width: 240px !important;
   }
-  .container .row .row .card .img-bulk {
-    width: 170px !important;
-    height: 170px !important;
-    margin-top: 20px !important;
-  }
-  .container .row .row .card .card-body .diet-button {
-    width: 90px !important;
-    border-radius: 20px !important;
-    font-size: 15px !important;
-    height: 30px !important;
-    margin-bottom: 30px !important;
-  }
-  .container .row .row .card {
-    margin: 0 auto;
-    height: 380px;
-    border-radius: 24px !important;
-    margin-left: 130px;
-  }
-  .container .row .row .card .card-body .diet-button {
-    color: black !important;
-    background-color: #ffe600 !important;
-    font-weight: 600 !important;
-    width: 120px;
-    border-radius: 20px !important;
-    font-size: 22px;
-    height: 20px;
-    font-size: 10px;
-  }
-  .container .row .row .card .card-body .diet-button :hover {
-    -webkit-filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
-            filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
-    cursor: pointer !important;
-  }
-  .container .row .row .card .img-reduce {
-    width: 170px !important;
-    height: 170px !important;
-    margin-bottom: 300px !important;
-  }
-  div.bg-image {
-    background-image: none !important;
-  }
-  .back-button {
-    font-size: 18px !important;
-    font-weight: 600 !important;
-    color: white !important;
-    width: 90px;
-    margin-left: 260px;
-  }
-}
-
-@media (min-width: 768px) {
-  bg-image {
-    display: inline-block;
-  }
-  bg-image .row .row .card {
-    margin: 0 auto;
-    height: 380px;
-    border-radius: 24px !important;
-  }
-  bg-image .row .row .card .img-bulk {
+  container .row .row .card .img-bulk {
     width: 210px !important;
     height: 210px;
     display: block;
     margin: auto;
   }
-  bg-image .row .row .card .card-body .diet-button {
+  container .row .row .card .card-body .diet-button {
     color: black !important;
     background-color: #ffe600 !important;
     font-weight: 600 !important;
@@ -528,17 +468,17 @@ body {
     border-radius: 20px !important;
     font-size: 22px;
   }
-  bg-image .row .row .card .card-body .diet-button :hover {
+  container .row .row .card .card-body .diet-button :hover {
     -webkit-filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
             filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
     cursor: pointer !important;
   }
-  bg-image .row .row .card {
-    margin: 0 auto;
+  container .row .row .card {
+    margin-left: 40px;
     height: 380px;
     border-radius: 24px !important;
   }
-  bg-image .row .row .card .card-body .diet-button {
+  container .row .row .card .card-body .diet-button {
     color: black !important;
     background-color: #ffe600 !important;
     font-weight: 600 !important;
@@ -547,16 +487,19 @@ body {
     font-size: 22px;
     margin-bottom: 50px !important;
   }
-  bg-image .row .row .card .card-body .diet-button :hover {
+  container .row .row .card .card-body .diet-button :hover {
     -webkit-filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
             filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
     cursor: pointer !important;
   }
-  bg-image .row .row .card .img-reduce {
+  container .row .row .card .img-reduce {
     width: 210px !important;
     height: 210px;
     display: block;
     margin: auto;
+  }
+  div.bg-image {
+    background-image: none !important;
   }
   .back-button {
     background-color: #8b0000 !important;

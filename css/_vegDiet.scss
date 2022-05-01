@@ -1,5 +1,5 @@
 @mixin card {
-  margin: 0 auto;
+    margin-left: 40px;
   height: 380px;
   border-radius: 24px !important;
 }
@@ -32,6 +32,7 @@
   position: relative;
   .row {
     .row {
+        margin-left: 15px;
       .card {
         @include card();
         .img-bulk {
@@ -66,17 +67,18 @@
   color: white !important;
   width: 90px;
   margin-left: 60px;
+  margin-top: 80px;
 }
-@media (max-width: 576px) {
+@media (min-width: 276px) and (max-width: 768px) {
   .container {
     .row {
       .diet-heading {
         font-size: 30px;
-        margin-left: 40px;
+        margin-left: 45px !important;
       }
       .row {
         .card { 
-          @include card();
+          margin-left: 60px !important;
           height: 300px !important;
           margin-bottom: 40px !important;
           width: 240px !important;
@@ -124,78 +126,20 @@
     font-weight: 600 !important;
     color: white !important;
     width: 90px;
-    margin-left: 230px;
+    margin-left: 225px !important;
   }
 }
-@media (max-width: 768px){
-    .container {
-        .row {
-          .diet-heading {
-            font-size: 30px;
-            margin-left: 40px;
-          }
-          .row {
-            .card {
-                margin-left: 160px!important;
-                height: 380px;
-                border-radius: 24px !important;
-              height: 300px !important;
-              margin-bottom: 40px !important;
-              width: 240px !important;
-    
-              .img-bulk {
-                width: 170px !important;
-                height: 170px !important;
-                margin-top: 20px !important;
-              }
-              .card-body {
-                .diet-button {
-                  width: 90px !important;
-                  border-radius: 20px !important;
-                  font-size: 15px !important;
-                  height: 30px !important;
-                  margin-bottom: 30px !important;
-                }
-              }
-            }
-            .card {
-              @include card();
-              margin-left: 130px;
-              .card-body {
-                .diet-button {
-                  @include diet-veg-button();
-                  height: 20px;
-                  font-size: 10px;
-                }
-              }
-              .img-reduce {
-                //    margin:  auto;
-                width: 170px !important;
-                height: 170px !important;
-                margin-bottom: 300px !important;
-              }
-            }
-          }
-        }
-      }
-      div.bg-image {
-        background-image: none !important;
-      }
-      .back-button {
-        font-size: 18px !important;
-        font-weight: 600 !important;
-        color: white !important;
-        width: 90px;
-        margin-left: 260px;
-      }
-    }
-    @media(min-width: 768px){
-        bg-image {
-           display: inline-block;
+    @media(min-width: 769px) and (max-width: 1200px){
+        container {
             .row {
               .row {
                 .card {
-                  @include card();
+                    margin-left: 760px!important;
+                    height: 680px !important;
+                    border-radius: 24px !important;
+                  height: 300px !important;
+                  margin-bottom: 40px !important;
+                  width: 240px !important;
                   .img-bulk {
                     @include img-veg-diet();
                   }
@@ -219,6 +163,9 @@
                 }
               }
             }
+          }
+          div.bg-image {
+            background-image: none !important;
           }
           .back-button {
             background-color: #8b0000 !important;
