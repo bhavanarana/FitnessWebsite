@@ -354,6 +354,7 @@ body {
   width: 120px;
   border-radius: 20px !important;
   font-size: 22px !important;
+  margin-bottom: 50px !important;
 }
 
 .bg-image .row .row .card .card-body .diet-button :hover {
@@ -362,7 +363,7 @@ body {
   cursor: pointer !important;
 }
 
-.bg-image .row .row .card .img-bulk {
+.bg-image .row .row .card .img-reduce {
   width: 210px !important;
   height: 210px;
   display: block;
@@ -377,5 +378,68 @@ body {
   color: white !important;
   width: 90px;
   margin-left: 60px;
+}
+
+@media (max-width: 576px) {
+  .container .row .diet-heading {
+    font-size: 30px;
+    margin-left: 40px;
+  }
+  .container .row .row .card {
+    margin: 0 auto;
+    height: 380px;
+    border-radius: 24px !important;
+    height: 280px !important;
+    margin-bottom: 40px !important;
+    width: 250px !important;
+  }
+  .container .row .row .card .img-bulk {
+    width: 170px !important;
+    height: 170px !important;
+    margin-top: 20px !important;
+    margin-bottom: 10px;
+  }
+  .container .row .row .card .card-body .diet-button {
+    color: black !important;
+    background-color: #ffe600 !important;
+    font-weight: 600 !important;
+    width: 120px;
+    border-radius: 20px !important;
+    font-size: 22px !important;
+    margin-bottom: 0px !important;
+    margin-top: 0 !important;
+  }
+  .container .row .row .card .card-body .diet-button :hover {
+    -webkit-filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
+            filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
+    cursor: pointer !important;
+  }
+  .container .row .row .card {
+    margin: 0 auto;
+    height: 380px;
+    border-radius: 24px !important;
+    margin-left: 130px;
+  }
+  .container .row .row .card .card-body .diet-button {
+    color: black !important;
+    background-color: #ffe600 !important;
+    font-weight: 600 !important;
+    width: 120px;
+    border-radius: 20px !important;
+    font-size: 22px !important;
+  }
+  .container .row .row .card .card-body .diet-button :hover {
+    -webkit-filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
+            filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
+    cursor: pointer !important;
+  }
+  .container .row .row .card .img-reduce {
+    width: 170px !important;
+    height: 170px !important;
+    margin-bottom: 300px !important;
+  }
+  div.bg-image {
+    background-image: none !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */

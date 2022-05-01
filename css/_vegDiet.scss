@@ -49,10 +49,11 @@
                @include card();
                .card-body{
                    .diet-button{
-                    @include diet-veg-button()
+                    @include diet-veg-button();
+                    margin-bottom: 50px !important;
                    }
                }
-               .img-bulk{
+               .img-reduce{
                 @include img-veg-diet()
                }
            }
@@ -67,5 +68,59 @@
   width: 90px;
   margin-left: 60px;
 }
+}
+@media (max-width: 576px){
+    .container{
+        .row{
+            .diet-heading{
+                font-size: 30px;
+                margin-left: 40px;
+            }
+           .row{
+               .card{
+                   @include card();
+                   height: 280px !important;
+                   margin-bottom: 40px !important;
+                   width: 250px !important;
+                   
+                   .img-bulk{
+                       width: 170px !important;
+                    height: 170px !important;
+                    margin-top: 20px !important;
+                    margin-bottom: 10px
+                    
+    
+                   }
+                   .card-body{
+                       .diet-button{
+                        @include diet-veg-button();
+                        margin-bottom: 0px !important;
+                        margin-top: 0 !important;
+                       
+                   }
+                   }
+               }
+               .card{
+                   @include card();
+                   margin-left: 130px;
+                   .card-body{
+                       .diet-button{
+                        @include diet-veg-button()
+                       }
+                   }
+                   .img-reduce{
+                    //    margin:  auto;
+                    width: 170px !important;
+                    height: 170px !important;
+                    margin-bottom: 300px !important;
+                   
+                   }
+               }
+           }
+        }
+    }
+    div.bg-image{
+        background-image: none !important;
+    }
 }
 
