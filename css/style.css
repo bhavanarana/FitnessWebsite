@@ -184,9 +184,8 @@ body {
 }
 
 .veg .veg-img {
-  height: 150px;
-  width: 150px;
-  margin: auto;
+  height: 160px;
+  width: 160px;
 }
 
 .non-veg {
@@ -203,9 +202,8 @@ body {
 }
 
 .non-veg .non-veg-img {
-  height: 150px;
-  width: 150px;
-  margin: auto;
+  height: 160px;
+  width: 160px;
 }
 
 @media (min-width: 576px) {
