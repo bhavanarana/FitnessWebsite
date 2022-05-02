@@ -29,6 +29,11 @@ $primary_5: #ffe600;
   font-size: 14px;
   border: none;
 }
+@mixin gainImageCard {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+}
 .container-veg {
   .veg-heading {
     color: $primary_3;
@@ -39,9 +44,7 @@ $primary_5: #ffe600;
     .gain-card {
       @include gainCard();
       .gain-img-card {
-        margin-top: 20px;
-        width: 200px;
-        height: 200px;
+        @include gainImageCard();
       }
       .gain-body {
         .gain-head-card {
@@ -55,12 +58,11 @@ $primary_5: #ffe600;
         }
       }
     }
+
     .reduce-card {
       @include gainCard();
       .reduce-img-card {
-        margin-top: 20px;
-        width: 200px;
-        height: 200px;
+        @include gainImageCard();
       }
       .reduce-body {
         .reduce-head-card {
@@ -75,183 +77,174 @@ $primary_5: #ffe600;
       }
     }
   }
+  .back-button {
+    background-color: #8b0000 !important;
+    border-radius: 20px !important;
+    font-size: 21px !important;
+    font-weight: 600 !important;
+    color: white !important;
+    width: 90px;
+    margin-left: 60px;
+    margin-top: 10px;
+  }
 }
-// @mixin card {
-//     margin-left: 40px;
-//   height: 380px;
-//   border-radius: 24px !important;
-// }
-// @mixin img-veg-diet {
-//   width: 210px !important;
-//   height: 210px;
-//   display: block;
-//   margin: auto;
-//   //   text-align: 0 auto !important;
-// }
-// @mixin diet-veg-button {
-//   color: black !important;
-//   background-color: #ffe600 !important;
-//   font-weight: 600 !important;
-//   width: 120px;
-//   border-radius: 20px !important;
-//   font-size: 22px ;
-//   :hover {
-//     filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
-//     cursor: pointer !important;
-//   }
-// }
-// .bg-image {
-//   background-image: url(/Images/diet-bg.svg);
-//   background-size: 480px; //resizes the image of background
-//   // // background-size: cover;
-//   background-position: center 120px; //center aligns background image
-//   background-repeat: no-repeat;
-// //   z-index: -1;
-//   position: relative;
-//   .row {
-//     .row {
-//         margin-left: 15px;
-//       .card {
-//         @include card();
-//         .img-bulk {
-//           @include img-veg-diet();
-//         }
-//         .card-body {
-//           .diet-button {
-//             @include diet-veg-button();
-//           }
-//         }
-//       }
-//       .card {
-//         @include card();
-//         .card-body {
-//           .diet-button {
-//             @include diet-veg-button();
-//             margin-bottom: 50px !important;
-//           }
-//         }
-//         .img-reduce {
-//           @include img-veg-diet();
-//         }
-//       }
-//     }
-//   }
-// }
-// .back-button {
-//   background-color: #8b0000 !important;
-//   border-radius: 20px !important;
-//   font-size: 21px !important;
-//   font-weight: 600 !important;
-//   color: white !important;
-//   width: 90px;
-//   margin-left: 60px;
-//   margin-top: 80px;
-// }
-// @media (min-width: 276px) and (max-width: 768px) {
-//   .container {
-//     .row {
-//       .diet-heading {
-//         font-size: 30px;
-//         margin-left: 45px !important;
-//       }
-//       .row {
-//         .card {
-//           margin-left: 60px !important;
-//           height: 300px !important;
-//           margin-bottom: 40px !important;
-//           width: 240px !important;
-
-//           .img-bulk {
-//             width: 170px !important;
-//             height: 170px !important;
-//             margin-top: 20px !important;
-//           }
-//           .card-body {
-//             .diet-button {
-//               width: 90px !important;
-//               border-radius: 20px !important;
-//               font-size: 15px !important;
-//               height: 30px !important;
-//               margin-bottom: 30px !important;
-//             }
-//           }
-//         }
-//         .card {
-//           @include card();
-//           margin-left: 130px;
-//           .card-body {
-//             .diet-button {
-//               @include diet-veg-button();
-//               height: 20px;
-//               font-size: 10px;
-//             }
-//           }
-//           .img-reduce {
-//             //    margin:  auto;
-//             width: 170px !important;
-//             height: 170px !important;
-//             margin-bottom: 300px !important;
-//           }
-//         }
-//       }
-//     }
-//   }
-//   div.bg-image {
-//     background-image: none !important;
-//   }
-//   .back-button {
-//     font-size: 18px !important;
-//     font-weight: 600 !important;
-//     color: white !important;
-//     width: 90px;
-//     margin-left: 225px !important;
-//   }
-// }
-//     @media(min-width: 769px) and (max-width: 1200px){
-//         .container {
-//             .row {
-//               .row {
-//                 .card {
-//                     margin-left: 760px!important;
-//                     height: 680px !important;
-//                     border-radius: 24px !important;
-//                   height: 300px !important;
-//                   margin-bottom: 40px !important;
-//                   width: 240px !important;
-//                   .img-bulk {
-//                     @include img-veg-diet();
-//                   }
-//                   .card-body {
-//                     .diet-button {
-//                       @include diet-veg-button();
-//                     }
-//                   }
-//                 }
-//                 .card {
-//                   @include card();
-//                   .card-body {
-//                     .diet-button {
-//                       @include diet-veg-button();
-//                       margin-bottom: 50px !important;
-//                     }
-//                   }
-//                   .img-reduce {
-//                     @include img-veg-diet();
-//                   }
-//                 }
-//               }
-//             }
-//           }
-//           div.bg-image {
-//             background-image: none !important;
-//           }
-//           .back-button {
-//             background-color: #8b0000 !important;
-//             border-radius: 20px !important;
-//             font-size: 21px !important;
-//             font-weight: 600 !important;
-//             color: white !important;
-//             width: 90px;
-//             margin-left: 60px;
-//           }
-//     }
+@media (min-width: 276px) and (max-width: 576px) {
+  @mixin gainCard {
+    background-color: $primary_4;
+    border-radius: 20px;
+    height: 220px;
+    margin-bottom: 40px;
+    width: 210px !important;
+  }
+  @mixin gainHeadCard {
+    color: $primary_3;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  @mixin gainTextCard {
+    color: $primary_3;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: none;
+  }
+  @mixin gainButton {
+    color: black !important;
+    background-color: $primary_5;
+    font-weight: 600 !important;
+    width: 80px;
+    border-radius: 20px !important;
+    font-size: 10px;
+    border: none;
+  }
+  @mixin gainImageCard {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .container-veg {
+    margin-left: 45px !important;
+    .veg-heading {
+      color: $primary_3;
+      font-size: 24px;
+      font-weight: 600;
+    }
+    .row-veg {
+      .gain-card {
+        @include gainCard();
+        .gain-img-card {
+          @include gainImageCard();
+        }
+        .gain-body {
+          .gain-head-card {
+            @include gainHeadCard();
+          }
+          .gain-text-card {
+            @include gainTextCard();
+          }
+          .gain-button {
+            @include gainButton();
+          }
+        }
+      }
+      .reduce-card {
+        @include gainCard();
+        .reduce-img-card {
+          @include gainImageCard();
+        }
+        .reduce-body {
+          .reduce-head-card {
+            @include gainHeadCard();
+          }
+          .reduce-text-card {
+            @include gainTextCard();
+          }
+          .reduce-button {
+            @include gainButton();
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 577px) and (max-width: 992px) {
+  @mixin gainCard {
+    background-color: $primary_4;
+    border-radius: 20px;
+    height: 230px;
+    margin-bottom: 20px;
+  }
+  @mixin gainHeadCard {
+    color: $primary_3;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  @mixin gainTextCard {
+    color: $primary_3;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: none;
+  }
+  @mixin gainButton {
+    color: black !important;
+    background-color: $primary_5;
+    font-weight: 600 !important;
+    width: 100px;
+    border-radius: 20px !important;
+    font-size: 14px;
+    border: none;
+  }
+  @mixin gainImageCard {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .container-veg {
+    margin-left: 100px !important;
+    .veg-heading {
+      color: $primary_3;
+      font-size: 40px;
+      text-align: center;
+      font-weight: 600;
+    }
+    .row-veg {
+      .gain-card {
+        @include gainCard();
+        .gain-img-card {
+          @include gainImageCard();
+        }
+        .gain-body {
+          .gain-head-card {
+            @include gainHeadCard();
+          }
+          .gain-text-card {
+            @include gainTextCard();
+          }
+          .gain-button {
+            @include gainButton();
+          }
+        }
+      }
+      .reduce-card {
+        @include gainCard();
+        .reduce-img-card {
+          @include gainImageCard();
+        }
+        .reduce-body {
+          .reduce-head-card {
+            @include gainHeadCard();
+          }
+          .reduce-text-card {
+            @include gainTextCard();
+          }
+          .reduce-button {
+            @include gainButton();
+          }
+        }
+      }
+    }
+  }
+}
