@@ -321,211 +321,81 @@ body {
   }
 }
 
-.bg-image {
-  background-image: url(/Images/diet-bg.svg);
-  background-size: 480px;
-  background-position: center 120px;
-  background-repeat: no-repeat;
-  position: relative;
+.container-veg .veg-heading {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 600;
 }
 
-.bg-image .row .row {
-  margin-left: 15px;
+.container-veg .row-veg .gain-card {
+  background-color: #009b51;
+  border-radius: 20px;
+  height: 400px;
 }
 
-.bg-image .row .row .card {
-  margin-left: 40px;
-  height: 380px;
-  border-radius: 24px !important;
+.container-veg .row-veg .gain-card .gain-img-card {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
 }
 
-.bg-image .row .row .card .img-bulk {
-  width: 210px !important;
-  height: 210px;
-  display: block;
-  margin: auto;
+.container-veg .row-veg .gain-card .gain-body .gain-head-card {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
 }
 
-.bg-image .row .row .card .card-body .diet-button {
+.container-veg .row-veg .gain-card .gain-body .gain-text-card {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container-veg .row-veg .gain-card .gain-body .gain-button {
   color: black !important;
-  background-color: #ffe600 !important;
+  background-color: #ffe600;
   font-weight: 600 !important;
-  width: 120px;
+  width: 100px;
   border-radius: 20px !important;
-  font-size: 22px;
+  font-size: 14px;
+  border: none;
 }
 
-.bg-image .row .row .card .card-body .diet-button :hover {
-  -webkit-filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
-          filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
-  cursor: pointer !important;
+.container-veg .row-veg .reduce-card {
+  background-color: #009b51;
+  border-radius: 20px;
+  height: 400px;
 }
 
-.bg-image .row .row .card {
-  margin-left: 40px;
-  height: 380px;
-  border-radius: 24px !important;
+.container-veg .row-veg .reduce-card .reduce-img-card {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
 }
 
-.bg-image .row .row .card .card-body .diet-button {
+.container-veg .row-veg .reduce-card .reduce-body .reduce-head-card {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.container-veg .row-veg .reduce-card .reduce-body .reduce-text-card {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container-veg .row-veg .reduce-card .reduce-body .reduce-button {
   color: black !important;
-  background-color: #ffe600 !important;
+  background-color: #ffe600;
   font-weight: 600 !important;
-  width: 120px;
+  width: 100px;
   border-radius: 20px !important;
-  font-size: 22px;
-  margin-bottom: 50px !important;
-}
-
-.bg-image .row .row .card .card-body .diet-button :hover {
-  -webkit-filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
-          filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
-  cursor: pointer !important;
-}
-
-.bg-image .row .row .card .img-reduce {
-  width: 210px !important;
-  height: 210px;
-  display: block;
-  margin: auto;
-}
-
-.back-button {
-  background-color: #8b0000 !important;
-  border-radius: 20px !important;
-  font-size: 21px !important;
-  font-weight: 600 !important;
-  color: white !important;
-  width: 90px;
-  margin-left: 60px;
-  margin-top: 80px;
-}
-
-@media (min-width: 276px) and (max-width: 768px) {
-  .container .row .diet-heading {
-    font-size: 30px;
-    margin-left: 45px !important;
-  }
-  .container .row .row .card {
-    margin-left: 60px !important;
-    height: 300px !important;
-    margin-bottom: 40px !important;
-    width: 240px !important;
-  }
-  .container .row .row .card .img-bulk {
-    width: 170px !important;
-    height: 170px !important;
-    margin-top: 20px !important;
-  }
-  .container .row .row .card .card-body .diet-button {
-    width: 90px !important;
-    border-radius: 20px !important;
-    font-size: 15px !important;
-    height: 30px !important;
-    margin-bottom: 30px !important;
-  }
-  .container .row .row .card {
-    margin-left: 40px;
-    height: 380px;
-    border-radius: 24px !important;
-    margin-left: 130px;
-  }
-  .container .row .row .card .card-body .diet-button {
-    color: black !important;
-    background-color: #ffe600 !important;
-    font-weight: 600 !important;
-    width: 120px;
-    border-radius: 20px !important;
-    font-size: 22px;
-    height: 20px;
-    font-size: 10px;
-  }
-  .container .row .row .card .card-body .diet-button :hover {
-    -webkit-filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
-            filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
-    cursor: pointer !important;
-  }
-  .container .row .row .card .img-reduce {
-    width: 170px !important;
-    height: 170px !important;
-    margin-bottom: 300px !important;
-  }
-  div.bg-image {
-    background-image: none !important;
-  }
-  .back-button {
-    font-size: 18px !important;
-    font-weight: 600 !important;
-    color: white !important;
-    width: 90px;
-    margin-left: 225px !important;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1200px) {
-  .container .row .row .card {
-    margin-left: 760px !important;
-    height: 680px !important;
-    border-radius: 24px !important;
-    height: 300px !important;
-    margin-bottom: 40px !important;
-    width: 240px !important;
-  }
-  .container .row .row .card .img-bulk {
-    width: 210px !important;
-    height: 210px;
-    display: block;
-    margin: auto;
-  }
-  .container .row .row .card .card-body .diet-button {
-    color: black !important;
-    background-color: #ffe600 !important;
-    font-weight: 600 !important;
-    width: 120px;
-    border-radius: 20px !important;
-    font-size: 22px;
-  }
-  .container .row .row .card .card-body .diet-button :hover {
-    -webkit-filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
-            filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
-    cursor: pointer !important;
-  }
-  .container .row .row .card {
-    margin-left: 40px;
-    height: 380px;
-    border-radius: 24px !important;
-  }
-  .container .row .row .card .card-body .diet-button {
-    color: black !important;
-    background-color: #ffe600 !important;
-    font-weight: 600 !important;
-    width: 120px;
-    border-radius: 20px !important;
-    font-size: 22px;
-    margin-bottom: 50px !important;
-  }
-  .container .row .row .card .card-body .diet-button :hover {
-    -webkit-filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
-            filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25)) !important;
-    cursor: pointer !important;
-  }
-  .container .row .row .card .img-reduce {
-    width: 210px !important;
-    height: 210px;
-    display: block;
-    margin: auto;
-  }
-  div.bg-image {
-    background-image: none !important;
-  }
-  .back-button {
-    background-color: #8b0000 !important;
-    border-radius: 20px !important;
-    font-size: 21px !important;
-    font-weight: 600 !important;
-    color: white !important;
-    width: 90px;
-    margin-left: 60px;
-  }
+  font-size: 14px;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
