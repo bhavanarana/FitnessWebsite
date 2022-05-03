@@ -1,8 +1,41 @@
 $primary_1: #000000;
-$primary_2: #B7382D;
+$primary_2: #b7382d;
 $primary_3: #ffffff;
-.workout-heading{
+@mixin workoutCard {
+    background-color: $primary_2;
+        height: 190px;
+        border-radius: 20px;
+}
+@mixin workoutImg{
+    width: 119px;
+    height: 119px;
+    margin-top: 30px;
+}
+@mixin workoutText {
     color: $primary_3;
-    font-size: 64px;
+    text-decoration: none !important;
+    font-weight: 500;
+    font-size: 24px;
+}
+.container-workout {
+  .workout-heading {
+    color: $primary_3;
+    font-size: 54px;
     font-weight: 600;
+  }
+  .row-workout {
+    .workout-card {
+        @include workoutCard();
+      .workout-img {
+         @include workoutImg();
+      }
+    }
+    .workout-text {
+       @include workoutText();
+    }
+    .workout-margin{
+
+        margin-top: 50px;
+    }
+  }
 }
