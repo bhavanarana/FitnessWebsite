@@ -176,8 +176,8 @@ body {
 }
 
 .container-diet .row-diet .veg-card .veg-img-card {
-  width: 250px;
-  height: 250px;
+  width: 180px;
+  height: 180px;
 }
 
 .container-diet .row-diet .veg-card .veg-text-card {
@@ -193,8 +193,8 @@ body {
 }
 
 .container-diet .row-diet .nonveg-card .nonveg-img-card {
-  width: 250px;
-  height: 250px;
+  width: 180px;
+  height: 180px;
 }
 
 .container-diet .row-diet .nonveg-card .nonveg-text-card {
@@ -400,14 +400,14 @@ body {
 }
 
 .container-veg .back-button {
-  background-color: #8b0000 !important;
-  border-radius: 20px !important;
-  font-size: 21px !important;
-  font-weight: 600 !important;
-  color: white !important;
+  background-color: #8b0000;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
   width: 90px;
-  margin-left: 60px;
-  margin-top: 10px;
+  margin-left: 40px;
+  margin-top: 60px;
 }
 
 @media (min-width: 276px) and (max-width: 576px) {
@@ -487,6 +487,12 @@ body {
     font-size: 10px;
     border: none;
   }
+  .container-veg .back-button {
+    font-size: 16px;
+    width: 70px;
+    margin-left: 90px;
+    margin-top: 10px;
+  }
 }
 
 @media (min-width: 577px) and (max-width: 992px) {
@@ -564,6 +570,12 @@ body {
     border-radius: 20px !important;
     font-size: 14px;
     border: none;
+  }
+  .container-veg .back-button {
+    font-size: 18px;
+    width: 78px;
+    margin-left: 30px;
+    margin-top: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
