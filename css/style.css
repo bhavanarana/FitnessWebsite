@@ -11,6 +11,7 @@ body {
 }
 
 .sidebar {
+  z-index: 10;
   position: relative;
   min-height: 100%;
   width: 90px;
@@ -160,6 +161,691 @@ body {
     margin-left: 90px !important;
     font-size: 22px !important;
     font-weight: 600 !important;
+  }
+}
+
+.container-diet .diet-heading {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.container-diet .row-diet .veg-card {
+  background-color: #009b51 !important;
+  border-radius: 20px;
+}
+
+.container-diet .row-diet .veg-card .veg-img-card {
+  width: 180px;
+  height: 180px;
+}
+
+.container-diet .row-diet .veg-card .veg-text-card {
+  text-align: center;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.container-diet .row-diet .nonveg-card {
+  background-color: #b7382d;
+  border-radius: 20px;
+}
+
+.container-diet .row-diet .nonveg-card .nonveg-img-card {
+  width: 180px;
+  height: 180px;
+}
+
+.container-diet .row-diet .nonveg-card .nonveg-text-card {
+  text-align: center;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+@media (min-width: 276px) and (max-width: 576px) {
+  .container-diet {
+    margin-left: 40px !important;
+  }
+  .container-diet .diet-heading {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 16px;
+    text-align: center;
+  }
+  .container-diet .row-diet .veg-card {
+    background-color: #009b51 !important;
+    width: 240px !important;
+    margin-bottom: 40px;
+  }
+  .container-diet .row-diet .veg-card .veg-img-card {
+    width: 150px;
+    height: 150px;
+  }
+  .container-diet .row-diet .veg-card .veg-text-card {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .container-diet .row-diet .nonveg-card {
+    background-color: #b7382d;
+    border-radius: 20px;
+    width: 240px !important;
+  }
+  .container-diet .row-diet .nonveg-card .nonveg-img-card {
+    width: 150px;
+    height: 150px;
+  }
+  .container-diet .row-diet .nonveg-card .nonveg-text-card {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .container-diet .diet-heading {
+    color: #ffffff;
+    font-size: 48px;
+    margin-left: 30px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .container-diet .row-diet .veg-card {
+    background-color: #009b51 !important;
+    margin-bottom: 20px;
+  }
+  .container-diet .row-diet .veg-card .veg-img-card {
+    width: 150px;
+    height: 150px;
+  }
+  .container-diet .row-diet .veg-card .veg-text-card {
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .container-diet .row-diet .nonveg-card {
+    background-color: #b7382d;
+    border-radius: 20px;
+  }
+  .container-diet .row-diet .nonveg-card .nonveg-img-card {
+    width: 150px;
+    height: 150px;
+  }
+  .container-diet .row-diet .nonveg-card .nonveg-text-card {
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .container-diet .diet-heading {
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: 600;
+  }
+  .container-diet .row-diet .veg-card {
+    background-color: #009b51 !important;
+    margin-bottom: 45px;
+  }
+  .container-diet .row-diet .veg-card .veg-img-card {
+    width: 160px;
+    height: 160px;
+  }
+  .container-diet .row-diet .veg-card .veg-text-card {
+    text-align: center;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .container-diet .row-diet .nonveg-card {
+    background-color: #b7382d;
+    border-radius: 20px;
+  }
+  .container-diet .row-diet .nonveg-card .nonveg-img-card {
+    width: 160px;
+    height: 160px;
+  }
+  .container-diet .row-diet .nonveg-card .nonveg-text-card {
+    text-align: center;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+  }
+}
+
+.container-veg .veg-heading {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.container-veg .row-veg .gain-card {
+  background-color: #009b51;
+  border-radius: 20px;
+  height: 400px;
+}
+
+.container-veg .row-veg .gain-card .gain-img-card {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.container-veg .row-veg .gain-card .gain-body .gain-head-card {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.container-veg .row-veg .gain-card .gain-body .gain-text-card {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container-veg .row-veg .gain-card .gain-body .gain-button {
+  color: black !important;
+  background-color: #ffe600;
+  font-weight: 600 !important;
+  width: 100px;
+  border-radius: 20px !important;
+  font-size: 14px;
+  border: none;
+}
+
+.container-veg .row-veg .reduce-card {
+  background-color: #009b51;
+  border-radius: 20px;
+  height: 400px;
+}
+
+.container-veg .row-veg .reduce-card .reduce-img-card {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.container-veg .row-veg .reduce-card .reduce-body .reduce-head-card {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.container-veg .row-veg .reduce-card .reduce-body .reduce-text-card {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container-veg .row-veg .reduce-card .reduce-body .reduce-button {
+  color: black !important;
+  background-color: #ffe600;
+  font-weight: 600 !important;
+  width: 100px;
+  border-radius: 20px !important;
+  font-size: 14px;
+  border: none;
+}
+
+.container-veg .back-button {
+  background-color: #8b0000;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  width: 90px;
+  margin-left: 40px;
+  margin-top: 60px;
+}
+
+.container-veg .back-button:hover {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+@media (min-width: 276px) and (max-width: 576px) {
+  .container-veg {
+    margin-left: 45px !important;
+  }
+  .container-veg .veg-heading {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .container-veg .row-veg .gain-card {
+    background-color: #009b51;
+    border-radius: 20px;
+    height: 220px;
+    margin-bottom: 40px;
+    width: 210px !important;
+  }
+  .container-veg .row-veg .gain-card .gain-img-card {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .container-veg .row-veg .gain-card .gain-body .gain-head-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .container-veg .row-veg .gain-card .gain-body .gain-text-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: none;
+  }
+  .container-veg .row-veg .gain-card .gain-body .gain-button {
+    color: black !important;
+    background-color: #ffe600;
+    font-weight: 600 !important;
+    width: 80px;
+    border-radius: 20px !important;
+    font-size: 10px;
+    border: none;
+  }
+  .container-veg .row-veg .reduce-card {
+    background-color: #009b51;
+    border-radius: 20px;
+    height: 220px;
+    margin-bottom: 40px;
+    width: 210px !important;
+  }
+  .container-veg .row-veg .reduce-card .reduce-img-card {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .container-veg .row-veg .reduce-card .reduce-body .reduce-head-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .container-veg .row-veg .reduce-card .reduce-body .reduce-text-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: none;
+  }
+  .container-veg .row-veg .reduce-card .reduce-body .reduce-button {
+    color: black !important;
+    background-color: #ffe600;
+    font-weight: 600 !important;
+    width: 80px;
+    border-radius: 20px !important;
+    font-size: 10px;
+    border: none;
+  }
+  .container-veg .back-button {
+    font-size: 16px;
+    width: 70px;
+    margin-left: 90px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .container-veg {
+    margin-left: 100px !important;
+  }
+  .container-veg .veg-heading {
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .container-veg .row-veg .gain-card {
+    background-color: #009b51;
+    border-radius: 20px;
+    height: 230px;
+    margin-bottom: 20px;
+  }
+  .container-veg .row-veg .gain-card .gain-img-card {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .container-veg .row-veg .gain-card .gain-body .gain-head-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .container-veg .row-veg .gain-card .gain-body .gain-text-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: none;
+  }
+  .container-veg .row-veg .gain-card .gain-body .gain-button {
+    color: black !important;
+    background-color: #ffe600;
+    font-weight: 600 !important;
+    width: 100px;
+    border-radius: 20px !important;
+    font-size: 14px;
+    border: none;
+  }
+  .container-veg .row-veg .reduce-card {
+    background-color: #009b51;
+    border-radius: 20px;
+    height: 230px;
+    margin-bottom: 20px;
+  }
+  .container-veg .row-veg .reduce-card .reduce-img-card {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .container-veg .row-veg .reduce-card .reduce-body .reduce-head-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .container-veg .row-veg .reduce-card .reduce-body .reduce-text-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: none;
+  }
+  .container-veg .row-veg .reduce-card .reduce-body .reduce-button {
+    color: black !important;
+    background-color: #ffe600;
+    font-weight: 600 !important;
+    width: 100px;
+    border-radius: 20px !important;
+    font-size: 14px;
+    border: none;
+  }
+  .container-veg .back-button {
+    font-size: 18px;
+    width: 78px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+}
+
+.container-veg .veg-heading {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.container-veg .row-veg .nonveg-gain-card {
+  background-color: #b7382d;
+  border-radius: 20px;
+  height: 400px;
+}
+
+.container-veg .row-veg .nonveg-gain-card .gain-img-card {
+  margin-top: 19px;
+  width: 200px;
+  height: 200px;
+}
+
+.container-veg .row-veg .nonveg-gain-card .gain-body .gain-head-card {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.container-veg .row-veg .nonveg-gain-card .gain-body .gain-text-card {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container-veg .row-veg .nonveg-gain-card .gain-body .nonveg-gain-button {
+  color: black !important;
+  background-color: #ffe600;
+  font-weight: 600 !important;
+  width: 100px;
+  border-radius: 20px !important;
+  font-size: 14px;
+  border: none;
+}
+
+.container-veg .row-veg .nonveg-reduce-card {
+  background-color: #b7382d;
+  border-radius: 20px;
+  height: 400px;
+}
+
+.container-veg .row-veg .nonveg-reduce-card .reduce-img-card {
+  margin-top: 19px;
+  width: 200px;
+  height: 200px;
+}
+
+.container-veg .row-veg .nonveg-reduce-card .reduce-body .reduce-head-card {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.container-veg .row-veg .nonveg-reduce-card .reduce-body .reduce-text-card {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container-veg .row-veg .nonveg-reduce-card .reduce-body .nonveg-reduce-button {
+  color: black !important;
+  background-color: #ffe600;
+  font-weight: 600 !important;
+  width: 100px;
+  border-radius: 20px !important;
+  font-size: 14px;
+  border: none;
+}
+
+.container-veg .back-button {
+  background-color: #8b0000;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  width: 90px;
+  margin-left: 40px;
+  margin-top: 60px;
+}
+
+.container-veg .back-button:hover {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+@media (min-width: 276px) and (max-width: 576px) {
+  .container-veg {
+    margin-left: 45px !important;
+  }
+  .container-veg .veg-heading {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .container-veg .row-veg .nonveg-gain-card {
+    background-color: #b7382d;
+    border-radius: 20px;
+    height: 220px;
+    margin-bottom: 40px;
+    width: 210px !important;
+  }
+  .container-veg .row-veg .nonveg-gain-card .gain-img-card {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .container-veg .row-veg .nonveg-gain-card .gain-body .gain-head-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .container-veg .row-veg .nonveg-gain-card .gain-body .gain-text-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: none;
+  }
+  .container-veg .row-veg .nonveg-gain-card .gain-body .nonveg-gain-button {
+    color: black !important;
+    background-color: #ffe600;
+    font-weight: 600 !important;
+    width: 80px;
+    border-radius: 20px !important;
+    font-size: 10px;
+    border: none;
+  }
+  .container-veg .row-veg .nonveg-reduce-card {
+    background-color: #b7382d;
+    border-radius: 20px;
+    height: 220px;
+    margin-bottom: 40px;
+    width: 210px !important;
+  }
+  .container-veg .row-veg .nonveg-reduce-card .reduce-img-card {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .container-veg .row-veg .nonveg-reduce-card .reduce-body .reduce-head-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .container-veg .row-veg .nonveg-reduce-card .reduce-body .reduce-text-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: none;
+  }
+  .container-veg .row-veg .nonveg-reduce-card .reduce-body .nonveg-reduce-button {
+    color: black !important;
+    background-color: #ffe600;
+    font-weight: 600 !important;
+    width: 80px;
+    border-radius: 20px !important;
+    font-size: 10px;
+    border: none;
+  }
+  .container-veg .back-button {
+    font-size: 16px;
+    width: 70px;
+    margin-left: 90px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .container-veg {
+    margin-left: 100px !important;
+  }
+  .container-veg .veg-heading {
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .container-veg .row-veg .nonveg-gain-card {
+    background-color: #b7382d;
+    border-radius: 20px;
+    height: 230px;
+    margin-bottom: 20px;
+  }
+  .container-veg .row-veg .nonveg-gain-card .gain-img-card {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .container-veg .row-veg .nonveg-gain-card .gain-body .gain-head-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .container-veg .row-veg .nonveg-gain-card .gain-body .gain-text-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: none;
+  }
+  .container-veg .row-veg .nonveg-gain-card .gain-body .nonveg-gain-button {
+    color: black !important;
+    background-color: #ffe600;
+    font-weight: 600 !important;
+    width: 100px;
+    border-radius: 20px !important;
+    font-size: 14px;
+    border: none;
+  }
+  .container-veg .row-veg .nonveg-reduce-card {
+    background-color: #b7382d;
+    border-radius: 20px;
+    height: 230px;
+    margin-bottom: 20px;
+  }
+  .container-veg .row-veg .nonveg-reduce-card .reduce-img-card {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .container-veg .row-veg .nonveg-reduce-card .reduce-body .reduce-head-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .container-veg .row-veg .nonveg-reduce-card .reduce-body .reduce-text-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: none;
+  }
+  .container-veg .row-veg .nonveg-reduce-card .reduce-body .nonveg-reduce-button {
+    color: black !important;
+    background-color: #ffe600;
+    font-weight: 600 !important;
+    width: 100px;
+    border-radius: 20px !important;
+    font-size: 14px;
+    border: none;
+  }
+  .container-veg .back-button {
+    font-size: 18px;
+    width: 78px;
+    margin-left: 30px;
+    margin-top: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -31,12 +31,14 @@
     <div class="sidebar" id="showSidebar">
       <div class="logo_content">
         <div class="logo d-flex">
-          <img src="/Images/nav_logo.svg" class="nav_logo" />
-          <div class="logo_name" id="logo_title">Sweat Arena</div>
+          <a href="index.html"
+            ><img src="/Images/nav_logo.svg" class="nav_logo"
+          /></a>
+          <a href="index.html" class="logo_name" id="logo_title">Sweat Arena</a>
         </div>
         <ul class="nav_list">
           <li>
-            <a href="#"
+            <a href="index.html"
               ><img src="/Images/home_logo.svg" />
               <span class="nav_home">Home</span>
             </a>
@@ -48,8 +50,7 @@
             </a>
           </li>
           <li>
-            <!--linking diet page with main html-->
-            <a href="diet.html"
+            <a href="#"
               ><img src="/Images/meal_logo.svg" />
               <span class="nav_home">Meal Plan</span>
             </a>
@@ -75,13 +76,39 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row d-flex align-items-center justify-content-center">
-        <!--center its content vertically and horizontally.-->
-        <img class="" id="landing-logo" src="/Images/nav_logo.svg" />
-        <div class="landing-logoName">Sweat Arena</div>
-        <div class="landing-subtitle">Offering Best Fitness Program With Our Expert Trainers And Plans</div>
-        <a class="btn landing-button" aria-current="page" href="#">Get Started</a>
+    <div class="container container-diet mt-5">
+      <div class="row diet-heading justify-content-center">
+        Choose Your Diet Plan
+      </div>
+      <div class="row row-diet mt-5">
+        <div class="col-lg-6 d-flex justify-content-center">
+          <a href="/html/vegdiet.html" style="text-decoration: none">
+            <div class="card veg-card" style="width: 19rem">
+              <img
+                class="card-img-top mx-auto d-block veg-img-card"
+                src="/Images/vegetarian 1.svg"
+                alt="Card image cap"
+              />
+              <div class="card-body veg-text-card">
+                <p class="card-text">Vegetarian</p>
+              </div>
+            </div></a
+          >
+        </div>
+        <div class="col-lg-6 d-flex justify-content-center">
+          <a href="/html/nonvegdiet.html" style="text-decoration: none">
+            <div class="card nonveg-card" style="width: 19rem">
+              <img
+                class="card-img-top mx-auto d-block nonveg-img-card"
+                src="/Images/chicken-leg 1.svg"
+                alt="Card image cap"
+              />
+              <div class="card-body nonveg-text-card">
+                <p class="card-text">Non-Vegetarian</p>
+              </div>
+            </div></a
+          >
+        </div>
       </div>
     </div>
     <script

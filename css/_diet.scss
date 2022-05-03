@@ -1,0 +1,184 @@
+$primary_1: #000000;
+$primary_2: #a91313;
+$primary_3: #ffffff;
+@mixin dietCard {
+  background-color: #009b51 !important;
+  border-radius: 20px;
+}
+@mixin dietImgCard {
+  width: 180px;
+  height: 180px;
+}
+@mixin dietTextCard {
+  text-align: center;
+  color: $primary_3;
+  font-size: 22px;
+  font-weight: 500;
+}
+.container-diet {
+  .diet-heading {
+    color: $primary_3;
+    font-size: 64px;
+    font-weight: 600;
+  }
+  .row-diet {
+    .veg-card {
+      @include dietCard();
+      .veg-img-card {
+        @include dietImgCard();
+      }
+      .veg-text-card {
+        @include dietTextCard();
+      }
+    }
+    .nonveg-card {
+      background-color: #b7382d;
+      border-radius: 20px;
+      .nonveg-img-card {
+        @include dietImgCard();
+      }
+      .nonveg-text-card {
+        @include dietTextCard();
+      }
+    }
+  }
+}
+@media (min-width: 276px) and (max-width: 576px) {
+  @mixin dietCard {
+    background-color: #009b51 !important;
+    width: 240px !important;
+  }
+  @mixin dietImgCard {
+    width: 150px;
+    height: 150px;
+  }
+  @mixin dietTextCard {
+    text-align: center;
+    color: $primary_3;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .container-diet {
+    margin-left: 40px !important;
+    .diet-heading {
+      color: $primary_3;
+      font-size: 26px;
+      font-weight: 600;
+      margin-left: 16px;
+      text-align: center;
+    }
+    .row-diet {
+      .veg-card {
+        @include dietCard();
+        margin-bottom: 40px;
+        .veg-img-card {
+          @include dietImgCard();
+        }
+        .veg-text-card {
+          @include dietTextCard();
+        }
+      }
+      .nonveg-card {
+        background-color: #b7382d;
+        border-radius: 20px;
+        width: 240px !important;
+        .nonveg-img-card {
+          @include dietImgCard();
+        }
+        .nonveg-text-card {
+          @include dietTextCard();
+        }
+      }
+    }
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  @mixin dietCard {
+    background-color: #009b51 !important;
+    margin-bottom: 20px;
+  }
+  @mixin dietImgCard {
+    width: 150px;
+    height: 150px;
+  }
+  @mixin dietTextCard {
+    text-align: center;
+    color: $primary_3;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .container-diet {
+    .diet-heading {
+      color: $primary_3;
+      font-size: 48px;
+      margin-left: 30px;
+      font-weight: 600;
+      text-align: center;
+    }
+    .row-diet {
+      .veg-card {
+        @include dietCard();
+        .veg-img-card {
+          @include dietImgCard();
+        }
+        .veg-text-card {
+          @include dietTextCard();
+        }
+      }
+      .nonveg-card {
+        background-color: #b7382d;
+        border-radius: 20px;
+        .nonveg-img-card {
+          @include dietImgCard();
+        }
+        .nonveg-text-card {
+          @include dietTextCard();
+        }
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  @mixin dietCard {
+    background-color: #009b51 !important;
+    margin-bottom: 45px;
+  }
+  @mixin dietImgCard {
+    width: 160px;
+    height: 160px;
+  }
+  @mixin dietTextCard {
+    text-align: center;
+    color: $primary_3;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .container-diet {
+    .diet-heading {
+      color: $primary_3;
+      font-size: 54px;
+      font-weight: 600;
+    }
+    .row-diet {
+      .veg-card {
+        @include dietCard();
+        .veg-img-card {
+          @include dietImgCard();
+        }
+        .veg-text-card {
+          @include dietTextCard();
+        }
+      }
+      .nonveg-card {
+        background-color: #b7382d;
+        border-radius: 20px;
+        .nonveg-img-card {
+          @include dietImgCard();
+        }
+        .nonveg-text-card {
+          @include dietTextCard();
+        }
+      }
+    }
+  }
+}
