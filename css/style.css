@@ -872,9 +872,23 @@ body {
   text-decoration: none !important;
   font-weight: 500;
   font-size: 24px;
+  margin-bottom: 20px;
 }
 
 .container-workout .row-workout .workout-margin {
   margin-top: 50px;
+}
+
+@media (min-width: 276px) and (max-width: 576px) {
+  .container-workout {
+    margin-left: 52px !important;
+  }
+  .container-workout .workout-heading {
+    color: #ffffff;
+    font-size: 28px;
+    width: 300px;
+    text-align: center;
+    font-weight: 600;
+  }
 }
 /*# sourceMappingURL=style.css.map */
