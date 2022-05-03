@@ -1,0 +1,267 @@
+$primary_1: #000000;
+$primary_2: #a91313;
+$primary_3: #ffffff;
+$primary_4: #b7382d;
+$primary_5: #ffe600;
+@mixin nonvegGainCard {
+  background-color: $primary_4;
+  border-radius: 20px;
+  height: 400px;
+}
+@mixin gainHeadCard {
+  color: $primary_3;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+@mixin gainTextCard {
+  color: $primary_3;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+@mixin nonveg-gainButton {
+  color: black !important;
+  background-color: $primary_5;
+  font-weight: 600 !important;
+  width: 100px;
+  border-radius: 20px !important;
+  font-size: 14px;
+  border: none;
+}
+@mixin gainImageCard {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+}
+.container-veg {
+  .veg-heading {
+    color: $primary_3;
+    font-size: 64px;
+    font-weight: 600;
+  }
+  .row-veg {
+    .nonveg-gain-card {
+      @include nonvegGainCard();
+      .gain-img-card {
+        @include gainImageCard();
+      }
+      .gain-body {
+        .gain-head-card {
+          @include gainHeadCard();
+        }
+        .gain-text-card {
+          @include gainTextCard();
+        }
+        .nonveg-gain-button {
+          @include nonveg-gainButton();
+        }
+      }
+    }
+
+    .nonveg-reduce-card {
+      @include nonvegGainCard();
+      .reduce-img-card {
+        @include gainImageCard();
+      }
+      .reduce-body {
+        .reduce-head-card {
+          @include gainHeadCard();
+        }
+        .reduce-text-card {
+          @include gainTextCard();
+        }
+        .nonveg-reduce-button {
+          @include nonveg-gainButton();
+        }
+      }
+    }
+  }
+  .back-button {
+    background-color: #8b0000;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    width: 90px;
+    margin-left: 40px;
+    margin-top: 60px;
+  }
+  .back-button:hover {
+    text-decoration: none;
+    color: $primary_3;
+    font-weight: 500;
+  }
+}
+@media (min-width: 276px) and (max-width: 576px) {
+  @mixin nonvegGainCard {
+    background-color: $primary_4;
+    border-radius: 20px;
+    height: 220px;
+    margin-bottom: 40px;
+    width: 210px !important;
+  }
+  @mixin gainHeadCard {
+    color: $primary_3;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  @mixin gainTextCard {
+    color: $primary_3;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: none;
+  }
+  @mixin nonveg-gainButton {
+    color: black !important;
+    background-color: $primary_5;
+    font-weight: 600 !important;
+    width: 80px;
+    border-radius: 20px !important;
+    font-size: 10px;
+    border: none;
+  }
+  @mixin gainImageCard {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .container-veg {
+    margin-left: 45px !important;
+    .veg-heading {
+      color: $primary_3;
+      font-size: 24px;
+      font-weight: 600;
+    }
+    .row-veg {
+      .nonveg-gain-card {
+        @include nonvegGainCard();
+        .gain-img-card {
+          @include gainImageCard();
+        }
+        .gain-body {
+          .gain-head-card {
+            @include gainHeadCard();
+          }
+          .gain-text-card {
+            @include gainTextCard();
+          }
+          .nonveg-gain-button {
+            @include nonveg-gainButton();
+          }
+        }
+      }
+      .nonveg-reduce-card {
+        @include nonvegGainCard();
+        .reduce-img-card {
+          @include gainImageCard();
+        }
+        .reduce-body {
+          .reduce-head-card {
+            @include gainHeadCard();
+          }
+          .reduce-text-card {
+            @include gainTextCard();
+          }
+          .nonveg-reduce-button {
+            @include nonveg-gainButton();
+          }
+        }
+      }
+    }
+    .back-button {
+      font-size: 16px;
+      width: 70px;
+      margin-left: 90px;
+      margin-top: 10px;
+    }
+  }
+}
+@media (min-width: 577px) and (max-width: 992px) {
+  @mixin nonvegGainCard {
+    background-color: $primary_4;
+    border-radius: 20px;
+    height: 230px;
+    margin-bottom: 20px;
+  }
+  @mixin gainHeadCard {
+    color: $primary_3;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  @mixin gainTextCard {
+    color: $primary_3;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: none;
+  }
+  @mixin nonveg-gainButton {
+    color: black !important;
+    background-color: $primary_5;
+    font-weight: 600 !important;
+    width: 100px;
+    border-radius: 20px !important;
+    font-size: 14px;
+    border: none;
+  }
+  @mixin gainImageCard {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .container-veg {
+    margin-left: 100px !important;
+    .veg-heading {
+      color: $primary_3;
+      font-size: 40px;
+      text-align: center;
+      font-weight: 600;
+    }
+    .row-veg {
+      .nonveg-gain-card {
+        @include nonvegGainCard();
+        .gain-img-card {
+          @include gainImageCard();
+        }
+        .gain-body {
+          .gain-head-card {
+            @include gainHeadCard();
+          }
+          .gain-text-card {
+            @include gainTextCard();
+          }
+          .nonveg-gain-button {
+            @include nonveg-gainButton();
+          }
+        }
+      }
+      .nonveg-reduce-card {
+        @include nonvegGainCard();
+        .reduce-img-card {
+          @include gainImageCard();
+        }
+        .reduce-body {
+          .reduce-head-card {
+            @include gainHeadCard();
+          }
+          .reduce-text-card {
+            @include gainTextCard();
+          }
+          .nonveg-reduce-button {
+            @include nonveg-gainButton();
+          }
+        }
+      }
+    }
+    .back-button {
+      font-size: 18px;
+      width: 78px;
+      margin-left: 30px;
+      margin-top: 10px;
+    }
+  }
+}

@@ -31,14 +31,12 @@
     <div class="sidebar" id="showSidebar">
       <div class="logo_content">
         <div class="logo d-flex">
-          <a href="index.html"
-            ><img src="/Images/nav_logo.svg" class="nav_logo"
-          /></a>
-          <a href="index.html" class="logo_name" id="logo_title">Sweat Arena</a>
+          <img src="/Images/nav_logo.svg" class="nav_logo" />
+          <div class="logo_name" id="logo_title">Sweat Arena</div>
         </div>
         <ul class="nav_list">
           <li>
-            <a href="index.html"
+            <a href="/html/index.html"
               ><img src="/Images/home_logo.svg" />
               <span class="nav_home">Home</span>
             </a>
@@ -50,7 +48,8 @@
             </a>
           </li>
           <li>
-            <a href="#"
+            <!--linking diet page with main html-->
+            <a href="diet.html"
               ><img src="/Images/meal_logo.svg" />
               <span class="nav_home">Meal Plan</span>
             </a>
@@ -76,39 +75,35 @@
         </div>
       </div>
     </div>
-    <div class="container container-diet mt-5">
-      <div class="row diet-heading justify-content-center">
+    </div>
+    <div class="container container-veg">
+      <div class="row veg-heading d-flex justify-content-center mt-5 mb-4">
         Choose Your Diet Plan
       </div>
-      <div class="row row-diet mt-5">
+      <div class="row row-veg">
         <div class="col-lg-6 d-flex justify-content-center">
-          <a href="/html/vegdiet.html" style="text-decoration: none">
-            <div class="card veg-card" style="width: 19rem">
-              <img
-                class="card-img-top mx-auto d-block veg-img-card"
-                src="/Images/vegetarian 1.svg"
-                alt="Card image cap"
-              />
-              <div class="card-body veg-text-card">
-                <p class="card-text">Vegetarian</p>
-              </div>
-            </div></a
-          >
+          <div class="card nonveg-gain-card" style="width: 18rem;">
+            <img class="card-img-top mx-auto d-block gain-img-card" src="/Images/bulk.svg" alt="Card image cap">
+            <div class="card-body gain-body">
+              <h5 class="card-title gain-head-card">Hard Gainer</h5>
+              <p class="card-text gain-text-card">Top healthy bulking foods with Meal Plan</p>
+              <div class="text-center">
+              <a href="#" class="btn btn-primary nonveg-gain-button">Download</a></div>
+            </div>
+          </div>
         </div>
         <div class="col-lg-6 d-flex justify-content-center">
-          <a href="/html/nonvegdiet.html" style="text-decoration: none">
-            <div class="card nonveg-card" style="width: 19rem">
-              <img
-                class="card-img-top mx-auto d-block nonveg-img-card"
-                src="/Images/chicken-leg 1.svg"
-                alt="Card image cap"
-              />
-              <div class="card-body nonveg-text-card">
-                <p class="card-text">Non-Vegetarian</p>
-              </div>
-            </div></a
-          >
+          <div class="card nonveg-reduce-card" style="width: 18rem;">
+            <img class="card-img-top mx-auto d-block reduce-img-card" src="/Images/reduce.svg" alt="Card image cap">
+            <div class="card-body reduce-body">
+              <h5 class="card-title reduce-head-card">Weight Loss</h5>
+              <p class="card-text reduce-text-card">1200 Calorie foods with Meal Plan</p>
+              <div class="text-center">
+              <a href="#" class="btn btn-primary nonveg-reduce-button">Download</a></div>
+            </div>
+          </div>
         </div>
+        <a href="/html/diet.html" type="button" class="btn back-button">Back</a>
       </div>
     </div>
     <script
@@ -119,3 +114,4 @@
     <script src="../js/main.js"></script>
   </body>
 </html>
+
