@@ -881,13 +881,44 @@ body {
 
 @media (min-width: 276px) and (max-width: 576px) {
   .container-workout {
+    margin-left: 50px !important;
+  }
+  .container-workout .workout-heading {
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .container-workout .row-workout .workout-card {
+    background-color: #b7382d;
+    height: 130px;
+    width: 130px !important;
+    border-radius: 20px;
+  }
+  .container-workout .row-workout .workout-card .workout-img {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+  }
+  .container-workout .row-workout .workout-text {
+    color: #ffffff;
+    text-decoration: none !important;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .container-workout .row-workout .workout-margin {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .container-workout {
     margin-left: 52px !important;
   }
   .container-workout .workout-heading {
     color: #ffffff;
     font-size: 28px;
-    width: 300px;
-    text-align: center;
     font-weight: 600;
   }
 }

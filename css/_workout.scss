@@ -40,17 +40,58 @@ $primary_3: #ffffff;
   }
 }
 @media (min-width: 276px) and (max-width: 576px) {
-    .container-workout{
-        margin-left: 52px !important;
-        .workout-heading {
-            color: $primary_3;
-            font-size: 28px;
-            width: 300px;
-            text-align: center;
-            font-weight: 600;
-          }
+  @mixin workoutCard {
+    background-color: $primary_2;
+    height: 130px;
+    width: 130px !important;
+    border-radius: 20px;
+  }
+  @mixin workoutImg {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+  }
+  @mixin workoutText {
+    color: $primary_3;
+    text-decoration: none !important;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .container-workout {
+    margin-left: 50px !important;
+    .workout-heading {
+      color: $primary_3;
+      font-size: 18px;
+      // width: 300px;
+      text-align: center; 
+      font-weight: 600;
     }
+    .row-workout {
+      .workout-card {
+        @include workoutCard();
+        .workout-img {
+          @include workoutImg();
+        }
+      }
+      .workout-text {
+        @include workoutText();
+      }
+      .workout-margin {
+        margin-top: 50px;
+      }
+    }
+  }
 }
-@media (min-width: 576px) and (min-width: 992px){
-
+@media (min-width: 576px) and (max-width: 992px) {
+  .container-workout {
+    margin-left: 52px !important;
+    .workout-heading {
+      color: $primary_3;
+      font-size: 28px;
+      // width: 300px;
+      // text-align: center;
+      font-weight: 600;
+    }
+  }
 }
