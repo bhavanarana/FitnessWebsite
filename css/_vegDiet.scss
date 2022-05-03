@@ -87,6 +87,11 @@ $primary_5: #ffe600;
     margin-left: 40px;
     margin-top: 60px;
   }
+  .back-button:hover{
+    text-decoration: none;
+    color: $primary_3;
+    font-weight: 500;
+  }
 }
 @media (min-width: 276px) and (max-width: 576px) {
   @mixin gainCard {

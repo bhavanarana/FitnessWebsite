@@ -410,6 +410,12 @@ body {
   margin-top: 60px;
 }
 
+.container-veg .back-button:hover {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+}
+
 @media (min-width: 276px) and (max-width: 576px) {
   .container-veg {
     margin-left: 45px !important;
