@@ -29,9 +29,7 @@ $primary_3: #ffffff;
       @include workoutCard();
       &:hover { 
         background:#491612;
-        // opacity: 0.4;
         cursor: pointer;
-        // display: inline-block;
         .workout-button{
           margin:0 auto;
           display:block !important; 
