@@ -1012,4 +1012,54 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+@media (min-width: 276px) and (max-width: 768px) {
+  .container-about {
+    margin-left: 40px !important;
+  }
+  .container-about .row-about .about-head1 {
+    margin-top: 100px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #a7a7a7;
+  }
+  .container-about .row-about .about-head2 {
+    font-weight: 500;
+    font-size: 28px;
+    color: #ffffff;
+  }
+  .container-about .row-about .about-head3 {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #ffffff;
+  }
+  .container-about .row-about .about-para {
+    font-size: 16px;
+    padding-left: 52px;
+    padding-right: 54px;
+    font-weight: 500;
+    color: #8c8c8c;
+    text-align: center;
+  }
+  .container-about .row-about .about-button {
+    margin-top: 80px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #a91313;
+    color: #ffffff;
+    width: 160px;
+    height: 38px;
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 /*# sourceMappingURL=style.css.map */
