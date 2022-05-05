@@ -995,12 +995,12 @@ body {
 
 .container-about .row-about .about-button {
   margin-top: 80px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   background-color: #a91313;
   color: #ffffff;
-  width: 218px;
-  height: 52px;
+  width: 180px;
+  height: 46px;
   border-radius: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
