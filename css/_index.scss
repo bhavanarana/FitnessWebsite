@@ -110,7 +110,7 @@ body {
   }
 }
 //responsive website at mobile screen
-@media (min-width: 576px) {
+@media (min-width: 276px) and (max-width: 768px){
   #landing-logo {
     width: 140px !important;
     height: 140px !important;
