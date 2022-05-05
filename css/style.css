@@ -848,4 +848,124 @@ body {
     margin-top: 10px;
   }
 }
+
+.container-workout .workout-heading {
+  color: #ffffff;
+  font-size: 54px;
+  font-weight: 600;
+}
+
+.container-workout .row-workout .workout-card {
+  background-color: #b7382d;
+  height: 190px;
+  border-radius: 25px;
+}
+
+.container-workout .row-workout .workout-card:hover {
+  background: #491612;
+  cursor: pointer;
+}
+
+.container-workout .row-workout .workout-card:hover .workout-button {
+  margin: 0 auto;
+  display: block !important;
+}
+
+.container-workout .row-workout .workout-card .workout-img {
+  width: 119px;
+  height: 119px;
+  margin-top: 20px;
+}
+
+.container-workout .row-workout .workout-card .workout-card-body .workout-button {
+  background-color: #8B0000;
+  color: #ffffff;
+  font-size: 10px;
+  width: 70px;
+  height: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 18px;
+  border-radius: 20px;
+}
+
+.container-workout .row-workout .workout-card .workout-card-body .workout-button {
+  display: none;
+}
+
+.container-workout .row-workout .workout-text {
+  color: #ffffff;
+  text-decoration: none !important;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container-workout .row-workout .workout-margin {
+  margin-top: 50px;
+}
+
+@media (min-width: 276px) and (max-width: 576px) {
+  .container-workout {
+    margin-left: 50px !important;
+  }
+  .container-workout .workout-heading {
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .container-workout .row-workout .workout-card {
+    background-color: #b7382d;
+    height: 130px;
+    width: 130px !important;
+    border-radius: 20px;
+  }
+  .container-workout .row-workout .workout-card:hover {
+    background: #491612;
+    cursor: pointer;
+  }
+  .container-workout .row-workout .workout-card:hover .workout-button {
+    margin: 0 auto;
+    display: block !important;
+  }
+  .container-workout .row-workout .workout-card .workout-img {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+  }
+  .container-workout .row-workout .workout-card .workout-card-body .workout-button {
+    background-color: #8B0000;
+    color: #ffffff;
+    font-size: 8px;
+    width: 50px;
+    height: 10px !important;
+    margin-top: -12px;
+    padding-bottom: 15px;
+  }
+  .container-workout .row-workout .workout-card .workout-card-body .workout-button {
+    display: none;
+  }
+  .container-workout .row-workout .workout-text {
+    color: #ffffff;
+    text-decoration: none !important;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .container-workout .row-workout .workout-margin {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 276px) and (max-width: 576px) and (min-width: 576px) and (max-width: 992px) {
+  .container-workout {
+    margin-left: 52px !important;
+  }
+  .container-workout .workout-heading {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+  }
+}
 /*# sourceMappingURL=style.css.map */
