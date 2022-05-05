@@ -1013,7 +1013,7 @@ body {
           justify-content: center;
 }
 
-@media (min-width: 276px) and (max-width: 768px) {
+@media (min-width: 276px) and (max-width: 1200px) {
   .container-about {
     margin-left: 40px !important;
   }

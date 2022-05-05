@@ -43,52 +43,49 @@ $primary_7: #8c8c8c;
     }
   }
 }
-  @media (min-width: 276px) and (max-width: 768px) {
-    .container-about {
-        margin-left: 40px !important;
-        .row-about {
-          .about-head1 {
-            margin-top: 100px;
-            font-weight: 600;
-            font-size: 22px;
-            color: $primary_6;
-          }
-          .about-head2 {
-            font-weight: 500;
-            font-size: 28px;
-            color: $primary_3;
-          }
-          .about-head3 {
-            margin-top: 30px;
-            font-weight: 600;
-            font-size: 22px;
-            color: $primary_3;
-          }
-          .about-para {
-            font-size: 16px;
-            padding-left: 52px;
-            padding-right: 54px;
-            font-weight: 500;
-            color: $primary_7;
-            text-align: center;
-            // width: 1000px;
-          }
-          .about-button {
-            margin-top: 80px;
-            font-size: 14px;
-            font-weight: 500;
-            background-color: $primary_2;
-            color: $primary_3;
-            width: 160px;
-            height: 38px;
-            border-radius: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-        }
+@media (min-width: 276px) and (max-width: 1200px) {
+  .container-about {
+    margin-left: 40px !important;
+    .row-about {
+      .about-head1 {
+        margin-top: 100px;
+        font-weight: 600;
+        font-size: 22px;
+        color: $primary_6;
       }
+      .about-head2 {
+        font-weight: 500;
+        font-size: 28px;
+        color: $primary_3;
+      }
+      .about-head3 {
+        margin-top: 30px;
+        font-weight: 600;
+        font-size: 22px;
+        color: $primary_3;
+      }
+      .about-para {
+        font-size: 16px;
+        padding-left: 52px;
+        padding-right: 54px;
+        font-weight: 500;
+        color: $primary_7;
+        text-align: center;
+        // width: 1000px;
+      }
+      .about-button {
+        margin-top: 80px;
+        font-size: 14px;
+        font-weight: 500;
+        background-color: $primary_2;
+        color: $primary_3;
+        width: 160px;
+        height: 38px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
   }
-  @media (min-width: 768px) and (max-width: 1200px) {
-
-          }
+}
