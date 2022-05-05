@@ -1,0 +1,45 @@
+$primary_2: #a91313;
+$primary_3: #ffffff;
+$primary_6: #a7a7a7;
+$primary_7: #8c8c8c;
+.container-about {
+  .row-about {
+    .about-head1 {
+      margin-top: 120px;
+      font-weight: 600;
+      font-size: 32px;
+      color: $primary_6;
+    }
+    .about-head2 {
+      font-weight: 500;
+      font-size: 40px;
+      color: $primary_3;
+    }
+    .about-head3 {
+      margin-top: 30px;
+      font-weight: 600;
+      font-size: 34px;
+      color: $primary_3;
+    }
+    .about-para {
+      font-size: 20px;
+      font-weight: 500;
+      color: $primary_7;
+      text-align: center;
+      // width: 1000px;
+    }
+    .about-button {
+      margin-top: 80px;
+      font-size: 18px;
+      font-weight: 500;
+      background-color: $primary_2;
+      color: $primary_3;
+      width: 218px;
+      height: 52px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
