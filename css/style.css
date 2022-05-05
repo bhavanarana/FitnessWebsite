@@ -24,6 +24,7 @@ body {
 .sidebar .logo_content .logo {
   margin-top: 20px;
   margin-left: 16px;
+  text-decoration: none;
 }
 
 .sidebar .logo_content .logo .logo_name {
