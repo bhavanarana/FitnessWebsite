@@ -130,16 +130,13 @@ $primary_3: #ffffff;
       }
     }
 }
-@media (min-width: 576px) and (max-width: 992px) {
+}
+@media (min-width: 577px) and (max-width: 992px) {
   .container-workout {
-    margin-left: 52px !important;
     .workout-heading {
       color: $primary_3;
-      font-size: 28px;
-      // width: 300px;
-      // text-align: center;
+      font-size: 14px !important;
       font-weight: 600;
     }
   }
-}
 }

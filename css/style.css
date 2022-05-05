@@ -958,13 +958,10 @@ body {
   }
 }
 
-@media (min-width: 276px) and (max-width: 576px) and (min-width: 576px) and (max-width: 992px) {
-  .container-workout {
-    margin-left: 52px !important;
-  }
+@media (min-width: 577px) and (max-width: 992px) {
   .container-workout .workout-heading {
     color: #ffffff;
-    font-size: 28px;
+    font-size: 14px !important;
     font-weight: 600;
   }
 }
