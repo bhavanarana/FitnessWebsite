@@ -1,0 +1,1094 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+body {
+  background-color: #000000 !important;
+}
+.form-headers {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.sidebar {
+  z-index: 10;
+  position: relative;
+  min-height: 100%;
+  width: 90px;
+  background-color: #a91313;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar .logo_content .logo {
+  margin-top: 20px;
+  margin-left: 16px;
+  text-decoration: none;
+}
+
+.sidebar .logo_content .logo .logo_name {
+  margin-top: 7px;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 500;
+  display: none;
+  margin-left: 14px;
+}
+
+.sidebar .logo_content ul {
+  margin-top: 130px;
+  list-style-type: none;
+  padding-left: 22px !important;
+}
+
+.sidebar .logo_content ul li {
+  margin-bottom: 16px;
+}
+
+.sidebar .logo_content ul li .nav_home {
+  margin-left: 14px;
+  display: none;
+}
+
+.sidebar .logo_content ul a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.sidebar .logo_content ul a :hover {
+  font-weight: 500;
+  font-size: 19px;
+  -webkit-transition: 0.1s ease;
+  transition: 0.1s ease;
+}
+
+.sidebar .slide_icon {
+  position: absolute;
+  right: -19px;
+  top: 50%;
+  cursor: pointer;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.sidebar #log_in {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  cursor: pointer;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  display: none;
+}
+
+.container .row #landing-logo {
+  width: 151px;
+  height: 151px;
+  margin-top: 100px;
+}
+
+.container .row .landing-logoName {
+  color: white;
+  text-align: center;
+  font-family: stencil;
+  font-size: 114px;
+  font-weight: 400;
+}
+
+.container .row .landing-subtitle {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: #686868;
+  margin-bottom: 40px;
+}
+
+.container .row .landing-button {
+  font-weight: 500 !important;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 20px;
+  margin-top: 10px;
+  background-color: #a91313 !important;
+  color: white !important;
+  border-radius: 13px;
+}
+
+@media (min-width: 276px) and (max-width: 768px) {
+  #landing-logo {
+    width: 140px !important;
+    height: 140px !important;
+    margin-left: 90px !important;
+  }
+  .landing-logoName {
+    padding-left: 90px !important;
+    font-size: 54px !important;
+  }
+  .landing-subtitle {
+    padding-left: 90px !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+  }
+  .landing-button {
+    margin-left: 90px !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+  }
+}
+
+@media (min-width: 768px) {
+  #landing-logo {
+    width: 160px !important;
+    height: 160px !important;
+    margin-left: 90px !important;
+  }
+  .landing-logoName {
+    padding-left: 90px !important;
+    font-size: 84px !important;
+  }
+  .landing-subtitle {
+    padding-left: 90px !important;
+    font-size: 22px !important;
+    font-weight: 600 !important;
+  }
+  .landing-button {
+    margin-left: 90px !important;
+    font-size: 22px !important;
+    font-weight: 600 !important;
+  }
+}
+
+.container-diet .diet-heading {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.container-diet .row-diet .veg-card {
+  background-color: #009b51 !important;
+  border-radius: 20px;
+}
+
+.container-diet .row-diet .veg-card .veg-img-card {
+  width: 180px;
+  height: 180px;
+}
+
+.container-diet .row-diet .veg-card .veg-text-card {
+  text-align: center;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.container-diet .row-diet .nonveg-card {
+  background-color: #b7382d;
+  border-radius: 20px;
+}
+
+.container-diet .row-diet .nonveg-card .nonveg-img-card {
+  width: 180px;
+  height: 180px;
+}
+
+.container-diet .row-diet .nonveg-card .nonveg-text-card {
+  text-align: center;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+@media (min-width: 276px) and (max-width: 576px) {
+  .container-diet {
+    margin-left: 40px !important;
+  }
+  .container-diet .diet-heading {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 16px;
+    text-align: center;
+  }
+  .container-diet .row-diet .veg-card {
+    background-color: #009b51 !important;
+    width: 240px !important;
+    margin-bottom: 40px;
+  }
+  .container-diet .row-diet .veg-card .veg-img-card {
+    width: 150px;
+    height: 150px;
+  }
+  .container-diet .row-diet .veg-card .veg-text-card {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .container-diet .row-diet .nonveg-card {
+    background-color: #b7382d;
+    border-radius: 20px;
+    width: 240px !important;
+  }
+  .container-diet .row-diet .nonveg-card .nonveg-img-card {
+    width: 150px;
+    height: 150px;
+  }
+  .container-diet .row-diet .nonveg-card .nonveg-text-card {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .container-diet .diet-heading {
+    color: #ffffff;
+    font-size: 48px;
+    margin-left: 30px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .container-diet .row-diet .veg-card {
+    background-color: #009b51 !important;
+    margin-bottom: 20px;
+  }
+  .container-diet .row-diet .veg-card .veg-img-card {
+    width: 150px;
+    height: 150px;
+  }
+  .container-diet .row-diet .veg-card .veg-text-card {
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .container-diet .row-diet .nonveg-card {
+    background-color: #b7382d;
+    border-radius: 20px;
+  }
+  .container-diet .row-diet .nonveg-card .nonveg-img-card {
+    width: 150px;
+    height: 150px;
+  }
+  .container-diet .row-diet .nonveg-card .nonveg-text-card {
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .container-diet .diet-heading {
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: 600;
+  }
+  .container-diet .row-diet .veg-card {
+    background-color: #009b51 !important;
+    margin-bottom: 45px;
+  }
+  .container-diet .row-diet .veg-card .veg-img-card {
+    width: 160px;
+    height: 160px;
+  }
+  .container-diet .row-diet .veg-card .veg-text-card {
+    text-align: center;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .container-diet .row-diet .nonveg-card {
+    background-color: #b7382d;
+    border-radius: 20px;
+  }
+  .container-diet .row-diet .nonveg-card .nonveg-img-card {
+    width: 160px;
+    height: 160px;
+  }
+  .container-diet .row-diet .nonveg-card .nonveg-text-card {
+    text-align: center;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+  }
+}
+
+.container-veg .veg-heading {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.container-veg .row-veg .gain-card {
+  background-color: #009b51;
+  border-radius: 20px;
+  height: 400px;
+}
+
+.container-veg .row-veg .gain-card .gain-img-card {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.container-veg .row-veg .gain-card .gain-body .gain-head-card {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.container-veg .row-veg .gain-card .gain-body .gain-text-card {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container-veg .row-veg .gain-card .gain-body .gain-button {
+  color: black !important;
+  background-color: #ffe600;
+  font-weight: 600 !important;
+  width: 100px;
+  border-radius: 20px !important;
+  font-size: 14px;
+  border: none;
+}
+
+.container-veg .row-veg .reduce-card {
+  background-color: #009b51;
+  border-radius: 20px;
+  height: 400px;
+}
+
+.container-veg .row-veg .reduce-card .reduce-img-card {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.container-veg .row-veg .reduce-card .reduce-body .reduce-head-card {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.container-veg .row-veg .reduce-card .reduce-body .reduce-text-card {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container-veg .row-veg .reduce-card .reduce-body .reduce-button {
+  color: black !important;
+  background-color: #ffe600;
+  font-weight: 600 !important;
+  width: 100px;
+  border-radius: 20px !important;
+  font-size: 14px;
+  border: none;
+}
+
+.container-veg .back-button {
+  background-color: #8b0000;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  width: 90px;
+  margin-left: 40px;
+  margin-top: 60px;
+}
+
+.container-veg .back-button:hover {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+@media (min-width: 276px) and (max-width: 576px) {
+  .container-veg {
+    margin-left: 45px !important;
+  }
+  .container-veg .veg-heading {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .container-veg .row-veg .gain-card {
+    background-color: #009b51;
+    border-radius: 20px;
+    height: 220px;
+    margin-bottom: 40px;
+    width: 210px !important;
+  }
+  .container-veg .row-veg .gain-card .gain-img-card {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .container-veg .row-veg .gain-card .gain-body .gain-head-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .container-veg .row-veg .gain-card .gain-body .gain-text-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: none;
+  }
+  .container-veg .row-veg .gain-card .gain-body .gain-button {
+    color: black !important;
+    background-color: #ffe600;
+    font-weight: 600 !important;
+    width: 80px;
+    border-radius: 20px !important;
+    font-size: 10px;
+    border: none;
+  }
+  .container-veg .row-veg .reduce-card {
+    background-color: #009b51;
+    border-radius: 20px;
+    height: 220px;
+    margin-bottom: 40px;
+    width: 210px !important;
+  }
+  .container-veg .row-veg .reduce-card .reduce-img-card {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .container-veg .row-veg .reduce-card .reduce-body .reduce-head-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .container-veg .row-veg .reduce-card .reduce-body .reduce-text-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: none;
+  }
+  .container-veg .row-veg .reduce-card .reduce-body .reduce-button {
+    color: black !important;
+    background-color: #ffe600;
+    font-weight: 600 !important;
+    width: 80px;
+    border-radius: 20px !important;
+    font-size: 10px;
+    border: none;
+  }
+  .container-veg .back-button {
+    font-size: 16px;
+    width: 70px;
+    margin-left: 90px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .container-veg {
+    margin-left: 100px !important;
+  }
+  .container-veg .veg-heading {
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .container-veg .row-veg .gain-card {
+    background-color: #009b51;
+    border-radius: 20px;
+    height: 230px;
+    margin-bottom: 20px;
+  }
+  .container-veg .row-veg .gain-card .gain-img-card {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .container-veg .row-veg .gain-card .gain-body .gain-head-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .container-veg .row-veg .gain-card .gain-body .gain-text-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: none;
+  }
+  .container-veg .row-veg .gain-card .gain-body .gain-button {
+    color: black !important;
+    background-color: #ffe600;
+    font-weight: 600 !important;
+    width: 100px;
+    border-radius: 20px !important;
+    font-size: 14px;
+    border: none;
+  }
+  .container-veg .row-veg .reduce-card {
+    background-color: #009b51;
+    border-radius: 20px;
+    height: 230px;
+    margin-bottom: 20px;
+  }
+  .container-veg .row-veg .reduce-card .reduce-img-card {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .container-veg .row-veg .reduce-card .reduce-body .reduce-head-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .container-veg .row-veg .reduce-card .reduce-body .reduce-text-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: none;
+  }
+  .container-veg .row-veg .reduce-card .reduce-body .reduce-button {
+    color: black !important;
+    background-color: #ffe600;
+    font-weight: 600 !important;
+    width: 100px;
+    border-radius: 20px !important;
+    font-size: 14px;
+    border: none;
+  }
+  .container-veg .back-button {
+    font-size: 18px;
+    width: 78px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+}
+
+.container-veg .veg-heading {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.container-veg .row-veg .nonveg-gain-card {
+  background-color: #b7382d;
+  border-radius: 20px;
+  height: 400px;
+}
+
+.container-veg .row-veg .nonveg-gain-card .gain-img-card {
+  margin-top: 19px;
+  width: 200px;
+  height: 200px;
+}
+
+.container-veg .row-veg .nonveg-gain-card .gain-body .gain-head-card {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.container-veg .row-veg .nonveg-gain-card .gain-body .gain-text-card {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container-veg .row-veg .nonveg-gain-card .gain-body .nonveg-gain-button {
+  color: black !important;
+  background-color: #ffe600;
+  font-weight: 600 !important;
+  width: 100px;
+  border-radius: 20px !important;
+  font-size: 14px;
+  border: none;
+}
+
+.container-veg .row-veg .nonveg-reduce-card {
+  background-color: #b7382d;
+  border-radius: 20px;
+  height: 400px;
+}
+
+.container-veg .row-veg .nonveg-reduce-card .reduce-img-card {
+  margin-top: 19px;
+  width: 200px;
+  height: 200px;
+}
+
+.container-veg .row-veg .nonveg-reduce-card .reduce-body .reduce-head-card {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.container-veg .row-veg .nonveg-reduce-card .reduce-body .reduce-text-card {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container-veg .row-veg .nonveg-reduce-card .reduce-body .nonveg-reduce-button {
+  color: black !important;
+  background-color: #ffe600;
+  font-weight: 600 !important;
+  width: 100px;
+  border-radius: 20px !important;
+  font-size: 14px;
+  border: none;
+}
+
+.container-veg .back-button {
+  background-color: #8b0000;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  width: 90px;
+  margin-left: 40px;
+  margin-top: 60px;
+}
+
+.container-veg .back-button:hover {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+@media (min-width: 276px) and (max-width: 576px) {
+  .container-veg {
+    margin-left: 45px !important;
+  }
+  .container-veg .veg-heading {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .container-veg .row-veg .nonveg-gain-card {
+    background-color: #b7382d;
+    border-radius: 20px;
+    height: 220px;
+    margin-bottom: 40px;
+    width: 210px !important;
+  }
+  .container-veg .row-veg .nonveg-gain-card .gain-img-card {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .container-veg .row-veg .nonveg-gain-card .gain-body .gain-head-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .container-veg .row-veg .nonveg-gain-card .gain-body .gain-text-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: none;
+  }
+  .container-veg .row-veg .nonveg-gain-card .gain-body .nonveg-gain-button {
+    color: black !important;
+    background-color: #ffe600;
+    font-weight: 600 !important;
+    width: 80px;
+    border-radius: 20px !important;
+    font-size: 10px;
+    border: none;
+  }
+  .container-veg .row-veg .nonveg-reduce-card {
+    background-color: #b7382d;
+    border-radius: 20px;
+    height: 220px;
+    margin-bottom: 40px;
+    width: 210px !important;
+  }
+  .container-veg .row-veg .nonveg-reduce-card .reduce-img-card {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .container-veg .row-veg .nonveg-reduce-card .reduce-body .reduce-head-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .container-veg .row-veg .nonveg-reduce-card .reduce-body .reduce-text-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: none;
+  }
+  .container-veg
+    .row-veg
+    .nonveg-reduce-card
+    .reduce-body
+    .nonveg-reduce-button {
+    color: black !important;
+    background-color: #ffe600;
+    font-weight: 600 !important;
+    width: 80px;
+    border-radius: 20px !important;
+    font-size: 10px;
+    border: none;
+  }
+  .container-veg .back-button {
+    font-size: 16px;
+    width: 70px;
+    margin-left: 90px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .container-veg {
+    margin-left: 100px !important;
+  }
+  .container-veg .veg-heading {
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .container-veg .row-veg .nonveg-gain-card {
+    background-color: #b7382d;
+    border-radius: 20px;
+    height: 230px;
+    margin-bottom: 20px;
+  }
+  .container-veg .row-veg .nonveg-gain-card .gain-img-card {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .container-veg .row-veg .nonveg-gain-card .gain-body .gain-head-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .container-veg .row-veg .nonveg-gain-card .gain-body .gain-text-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: none;
+  }
+  .container-veg .row-veg .nonveg-gain-card .gain-body .nonveg-gain-button {
+    color: black !important;
+    background-color: #ffe600;
+    font-weight: 600 !important;
+    width: 100px;
+    border-radius: 20px !important;
+    font-size: 14px;
+    border: none;
+  }
+  .container-veg .row-veg .nonveg-reduce-card {
+    background-color: #b7382d;
+    border-radius: 20px;
+    height: 230px;
+    margin-bottom: 20px;
+  }
+  .container-veg .row-veg .nonveg-reduce-card .reduce-img-card {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .container-veg .row-veg .nonveg-reduce-card .reduce-body .reduce-head-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .container-veg .row-veg .nonveg-reduce-card .reduce-body .reduce-text-card {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    display: none;
+  }
+  .container-veg
+    .row-veg
+    .nonveg-reduce-card
+    .reduce-body
+    .nonveg-reduce-button {
+    color: black !important;
+    background-color: #ffe600;
+    font-weight: 600 !important;
+    width: 100px;
+    border-radius: 20px !important;
+    font-size: 14px;
+    border: none;
+  }
+  .container-veg .back-button {
+    font-size: 18px;
+    width: 78px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+}
+
+.container-workout .workout-heading {
+  color: #ffffff;
+  font-size: 54px;
+  font-weight: 600;
+}
+
+.container-workout .row-workout .workout-card {
+  background-color: #b7382d;
+  height: 190px;
+  border-radius: 25px;
+}
+
+.container-workout .row-workout .workout-card:hover {
+  background: #491612;
+  cursor: pointer;
+}
+
+.container-workout .row-workout .workout-card:hover .workout-button {
+  margin: 0 auto;
+  display: block !important;
+}
+
+.container-workout .row-workout .workout-card .workout-img {
+  width: 119px;
+  height: 119px;
+  margin-top: 20px;
+}
+
+.container-workout
+  .row-workout
+  .workout-card
+  .workout-card-body
+  .workout-button {
+  background-color: #8b0000;
+  color: #ffffff;
+  font-size: 10px;
+  width: 70px;
+  height: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 18px;
+  border-radius: 20px;
+}
+
+.container-workout
+  .row-workout
+  .workout-card
+  .workout-card-body
+  .workout-button {
+  display: none;
+}
+
+.container-workout .row-workout .workout-text {
+  color: #ffffff;
+  text-decoration: none !important;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container-workout .row-workout .workout-margin {
+  margin-top: 50px;
+}
+
+@media (min-width: 276px) and (max-width: 576px) {
+  .container-workout {
+    margin-left: 50px !important;
+  }
+  .container-workout .workout-heading {
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .container-workout .row-workout .workout-card {
+    background-color: #b7382d;
+    height: 130px;
+    width: 130px !important;
+    border-radius: 20px;
+  }
+  .container-workout .row-workout .workout-card:hover {
+    background: #491612;
+    cursor: pointer;
+  }
+  .container-workout .row-workout .workout-card:hover .workout-button {
+    margin: 0 auto;
+    display: block !important;
+  }
+  .container-workout .row-workout .workout-card .workout-img {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+  }
+  .container-workout
+    .row-workout
+    .workout-card
+    .workout-card-body
+    .workout-button {
+    background-color: #8b0000;
+    color: #ffffff;
+    font-size: 8px;
+    width: 50px;
+    height: 10px !important;
+    margin-top: -12px;
+    padding-bottom: 15px;
+  }
+  .container-workout
+    .row-workout
+    .workout-card
+    .workout-card-body
+    .workout-button {
+    display: none;
+  }
+  .container-workout .row-workout .workout-text {
+    color: #ffffff;
+    text-decoration: none !important;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .container-workout .row-workout .workout-margin {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .container-workout .workout-heading {
+    color: #ffffff;
+    font-size: 14px !important;
+    font-weight: 600;
+  }
+}
+
+.container-about .row-about .about-head1 {
+  margin-top: 120px;
+  font-weight: 600;
+  font-size: 32px;
+  color: #a7a7a7;
+}
+
+.container-about .row-about .about-head2 {
+  font-weight: 500;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.container-about .row-about .about-head3 {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 34px;
+  color: #ffffff;
+}
+
+.container-about .row-about .about-para {
+  font-size: 20px;
+  font-weight: 500;
+  color: #8c8c8c;
+  text-align: center;
+}
+
+.container-about .row-about .about-button {
+  margin-top: 80px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #a91313;
+  color: #ffffff;
+  width: 180px;
+  height: 46px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (min-width: 276px) and (max-width: 1200px) {
+  .container-about {
+    margin-left: 40px !important;
+  }
+  .container-about .row-about .about-head1 {
+    margin-top: 100px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #a7a7a7;
+  }
+  .container-about .row-about .about-head2 {
+    font-weight: 500;
+    font-size: 28px;
+    color: #ffffff;
+  }
+  .container-about .row-about .about-head3 {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #ffffff;
+  }
+  .container-about .row-about .about-para {
+    font-size: 16px;
+    padding-left: 52px;
+    padding-right: 54px;
+    font-weight: 500;
+    color: #8c8c8c;
+    text-align: center;
+  }
+  .container-about .row-about .about-button {
+    margin-top: 80px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #a91313;
+    color: #ffffff;
+    width: 160px;
+    height: 38px;
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
