@@ -7,11 +7,63 @@
 </head>
 <body>
 <?php include 'navbar.php'; ?>
-  <div class="container form-container">
-    <div class="row form-row">
-      <div class="img"></div>
-      <div class="content">
+  <div class="container form-container mt-5">
+    <div class="row d-flex justify-content-around form-row ">
+      <div class="img col-lg-6">
+        <img src = "../images/workout.png">
+      </div>
+      <div class="content col-lg-6">
         <div class="form-heading">Get Your Personalized Chart</div>
+        <form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="fullName" class="form-label">Full Name</label>
+    <input type="text" class="form-control" id="text">
+  </div>
+  <div class="col-12">
+    <label for="goal" class="form-label">Goal</label>
+    <input type="text" class="form-control" id="goal">
+  </div>
+  <div class="col-md-4">
+    <label for="workout_lvl" class="form-label">Workout Level</label>
+    <select id="workout_lvl" class="form-select">
+      <option selected>Choose...</option>
+      <option>Easy</option>
+      <option>Intermediate</option>
+      <option>Advance</option>
+    </select>
+  </div>
+  <div class="col-md-4">
+    <label for="diet" class="form-label">Diet</label>
+    <select id="diet" class="form-select">
+      <option selected>Choose...</option>
+      <option>Veg</option>
+      <option>Non-Veg</option>
+    </select>
+  </div>
+  <div class="col-md-4">
+    <label for="date" class="form-label">DOB</label>
+<input type = "date" name = "date" class = "form-control">
+  </div>
+  <div class="col-md-4">
+    <label for="height" class="form-label">Height</label>
+    <input type="text" class="form-control" id="height" name = "height" placeholder = "in cm...">
+  </div>
+  <div class="col-md-4">
+    <label for="weight" class="form-label">Weight</label>
+    <input type="text" class="form-control" id="Weight" name = "name" placeholder = "in KG...">
+  </div>
+  <div class="col-md-4">
+    <label for="blood-grp" class="form-label">Blood Group</label>
+    <input type="text" class="form-control " id="blood-grp" name = "blood-grp" placeholder = " A+...">
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn form-btn mt-2" >Submit</button>
+  </div>
+</form> 
       </div>
     </div>
   </div>

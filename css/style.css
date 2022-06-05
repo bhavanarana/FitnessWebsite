@@ -1065,8 +1065,47 @@ body {
 }
 
 .form-container .form-row .content .form-heading {
-  color: white;
-  font-size: 64px;
+  color: #a91313;
+  font-size: 44px;
   font-weight: 600;
+}
+
+.form-container .form-row .content label {
+  color: white;
+}
+
+.form-container .form-row .content input {
+  background-color: white;
+  color: black;
+}
+
+.form-container .form-row .content select {
+  background-color: white;
+  color: black;
+}
+
+.form-container .form-row .content ::-webkit-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+}
+
+.form-container .form-row .content :-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+}
+
+.form-container .form-row .content ::-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+}
+
+.form-container .form-row .content ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+}
+
+.form-container .form-btn {
+  background-color: #a91313 !important;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
