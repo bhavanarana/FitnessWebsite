@@ -1064,7 +1064,7 @@ body {
   }
 }
 
-.form-container .form-head {
+.form-container .form-row .content .form-heading {
   color: white;
   font-size: 64px;
   font-weight: 600;

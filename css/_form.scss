@@ -1,7 +1,13 @@
-.form-container{
-  .form-head{
-color: white;
-  font-size: 64px;
-  font-weight: 600;
+.form-container {
+  .form-row {
+    .img {
+    }
+    .content {
+      .form-heading {
+        color: white;
+        font-size: 64px;
+        font-weight: 600;
+      }
+    }
   }
 }
