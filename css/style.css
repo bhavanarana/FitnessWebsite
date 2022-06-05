@@ -2,18 +2,14 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   font-family: poppins;
 }
 
 body {
   background-color: #000000 !important;
 }
-.form-headers {
-  color: white;
-  font-size: 18px;
-  font-weight: 500;
-}
+
 .sidebar {
   z-index: 10;
   position: relative;
@@ -75,7 +71,7 @@ body {
   top: 50%;
   cursor: pointer;
   -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .sidebar #log_in {
@@ -84,7 +80,7 @@ body {
   top: 50%;
   cursor: pointer;
   -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
+          transform: rotate(0deg);
   display: none;
 }
 
@@ -98,7 +94,7 @@ body {
   color: white;
   text-align: center;
   font-family: stencil;
-  font-size: 114px;
+  font-size: 64px;
   font-weight: 400;
 }
 
@@ -753,11 +749,7 @@ body {
     font-size: 16px;
     display: none;
   }
-  .container-veg
-    .row-veg
-    .nonveg-reduce-card
-    .reduce-body
-    .nonveg-reduce-button {
+  .container-veg .row-veg .nonveg-reduce-card .reduce-body .nonveg-reduce-button {
     color: black !important;
     background-color: #ffe600;
     font-weight: 600 !important;
@@ -841,11 +833,7 @@ body {
     font-size: 16px;
     display: none;
   }
-  .container-veg
-    .row-veg
-    .nonveg-reduce-card
-    .reduce-body
-    .nonveg-reduce-button {
+  .container-veg .row-veg .nonveg-reduce-card .reduce-body .nonveg-reduce-button {
     color: black !important;
     background-color: #ffe600;
     font-weight: 600 !important;
@@ -890,12 +878,8 @@ body {
   margin-top: 20px;
 }
 
-.container-workout
-  .row-workout
-  .workout-card
-  .workout-card-body
-  .workout-button {
-  background-color: #8b0000;
+.container-workout .row-workout .workout-card .workout-card-body .workout-button {
+  background-color: #8B0000;
   color: #ffffff;
   font-size: 10px;
   width: 70px;
@@ -906,11 +890,7 @@ body {
   border-radius: 20px;
 }
 
-.container-workout
-  .row-workout
-  .workout-card
-  .workout-card-body
-  .workout-button {
+.container-workout .row-workout .workout-card .workout-card-body .workout-button {
   display: none;
 }
 
@@ -955,12 +935,8 @@ body {
     height: 80px;
     margin-top: 20px;
   }
-  .container-workout
-    .row-workout
-    .workout-card
-    .workout-card-body
-    .workout-button {
-    background-color: #8b0000;
+  .container-workout .row-workout .workout-card .workout-card-body .workout-button {
+    background-color: #8B0000;
     color: #ffffff;
     font-size: 8px;
     width: 50px;
@@ -968,11 +944,7 @@ body {
     margin-top: -12px;
     padding-bottom: 15px;
   }
-  .container-workout
-    .row-workout
-    .workout-card
-    .workout-card-body
-    .workout-button {
+  .container-workout .row-workout .workout-card .workout-card-body .workout-button {
     display: none;
   }
   .container-workout .row-workout .workout-text {
@@ -1035,11 +1007,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media (min-width: 276px) and (max-width: 1200px) {
@@ -1084,11 +1056,17 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
+}
+
+.form-container .form-head {
+  color: white;
+  font-size: 64px;
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */
