@@ -10,24 +10,25 @@ $primary_2: #b7382d;
         font-size: 44px;
         font-weight: 600;
       }
-    label{
-      color: white;
-    }
-    input{
-      background-color: white;
-      color: black;
-    }
-    select{
-      background-color: white;
-      color: black;
-    } 
-    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-      color: white;
+      label {
+        color: white;
+      }
+      input {
+        background-color: white;
+        color: black;
+      }
+      select {
+        background-color: white;
+        color: black;
+      }
+      ::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+      }
     }
   }
-}
-.form-btn{
-  background-color: #a91313 !important;
-  color: white;
-}
+  .form-btn {
+    background-color: #a91313 !important;
+    color: white;
+  }
 }
