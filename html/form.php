@@ -12,7 +12,7 @@
       </div>
       <div class="content col-lg-6">
         <div class="form-heading">Get Your Personalized Chart</div>
-        <form class="row g-3">
+        <form class="row g-3" action="" method = "POST">
   <div class="col-md-6">
     <label for="email" class="form-label">Email</label>
     <input type="email" class="form-control" name = "email">
