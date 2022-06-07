@@ -14,20 +14,20 @@
         <div class="form-heading">Get Your Personalized Chart</div>
         <form class="row g-3">
   <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">Email</label>
-    <input type="email" class="form-control" id="inputEmail4">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control" name = "email">
   </div>
   <div class="col-md-6">
-    <label for="fullName" class="form-label">Full Name</label>
-    <input type="text" class="form-control" id="text">
+    <label for="name" class="form-label">Full Name</label>
+    <input type="text" class="form-control" name="name">
   </div>
   <div class="col-12">
     <label for="goal" class="form-label">Goal</label>
-    <input type="text" class="form-control" id="goal">
+    <input type="text" class="form-control" name="goal">
   </div>
   <div class="col-md-4">
     <label for="workout_lvl" class="form-label">Workout Level</label>
-    <select id="workout_lvl" class="form-select">
+    <select class="form-select" name = "workout_lvl">
       <option selected>Choose...</option>
       <option>Easy</option>
       <option>Intermediate</option>
@@ -36,7 +36,7 @@
   </div>
   <div class="col-md-4">
     <label for="diet" class="form-label">Diet</label>
-    <select id="diet" class="form-select">
+    <select name="diet" class="form-select">
       <option selected>Choose...</option>
       <option>Veg</option>
       <option>Non-Veg</option>
@@ -48,23 +48,24 @@
   </div>
   <div class="col-md-4">
     <label for="height" class="form-label">Height</label>
-    <input type="text" class="form-control" id="height" name = "height" placeholder = "in cm...">
+    <input type="text" class="form-control" name = "height" placeholder = "in cm...">
   </div>
   <div class="col-md-4">
     <label for="weight" class="form-label">Weight</label>
-    <input type="text" class="form-control" id="Weight" name = "name" placeholder = "in KG...">
+    <input type="text" class="form-control" name = "weight" placeholder = "in KG...">
   </div>
   <div class="col-md-4">
     <label for="blood-grp" class="form-label">Blood Group</label>
-    <input type="text" class="form-control " id="blood-grp" name = "blood-grp" placeholder = " A+...">
+    <input type="text" class="form-control " name = "blood-grp" placeholder = " A+...">
   </div>
   <div class="col-12">
-    <button type="submit" class="btn form-btn mt-2" >Submit</button>
+    <button type="submit" name="submit" class="btn form-btn mt-2" >Submit</button>
   </div>
 </form>
       </div>
     </div>
   </div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="../js/main.js"></script>
 </body>
