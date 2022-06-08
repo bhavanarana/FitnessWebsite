@@ -21,19 +21,7 @@ if (isset($_POST['submit'])) {
     VALUES('$email', '$name', '$goal', '$workout_lvl', '$diet', '$dob', '$height', '$weight', '$blood_grp')";
     $insert_query = mysqli_query($conn, $query);
     if ($insert_query) {
-        echo 'Suceessfully submitted';
-        //to send email
-        // $to=$email;
-        // $subject = "Requested for personalized chart";
-        // $message="
-        // <body>
-        // Hello this is your personalised chart
-        // </body>
-        // ";
-        //     $headers = 'From: <4bhavanarana@gmail.com>' . "\r\n";
-    
-        //     mail($to,$subject,$message,$headers);
-        //     exit();
+        header("Location:submit.php?info=added");
     } else {
         echo 'Failed to Submitted';
     }
