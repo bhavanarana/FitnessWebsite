@@ -23,7 +23,7 @@
         <div class="col-lg-2"></div>
         <div class="col-lg-8 about-para d-flex align-text-center">
           The people of our soil were in search of guidance, good training,
-          techniques and much more related to fitness. Thus, in 2022 We launched
+          techniques and much more related to fitness. Thus, in 2022 I launched
           this website to provide all those facilities by providing the best
           certified mentors, diet plans, workout plans and much more.
         </div>

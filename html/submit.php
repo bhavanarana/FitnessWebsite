@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <?php include 'bootstrap.php';
- include 'db.php'; ?> 
+ <?php
+ include 'bootstrap.php';
+ include 'db.php';
+ ?> 
 </head>
 <body>
     <?php
     include 'navbar.php';
-    if(isset($_REQUEST['info'])){ ?>
+    if (isset($_REQUEST['info'])) { ?>
 <div class="container" style= "margin-top: 100px">
     <div class="row" style="text-align: center">
         <div class="img" > <img src = "../Images/mail.png" style="width: 300px; height:300px"></div>
@@ -17,8 +19,6 @@
       </div>
     </div>
 </div>
-
-   <?php } ?>
-   
+   <?php }?> 
 </body>
 </html>
