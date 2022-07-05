@@ -2,28 +2,36 @@
 $servername = 'localhost';
 $username = 'root';
 $password = '';
-$db = 'recordfitness';
-$conn = new mysqli($servername, $username, $password, $db, '3307');
+$db = 'fitness';
+$conn = new mysqli($servername, $username, $password, $db);
 if (!$conn) {
-    die('failed' . mysqli_connect_error());
+  die('failed' . mysqli_connect_error());
 }
 if (isset($_POST['submit'])) {
-    $email = $_POST['email'];
-    $name = $_POST['name'];
-    $goal = $_POST['goal'];
-    $workout_lvl = $_POST['workout_lvl'];   
-    $diet = $_POST['diet'];
-    $dob = $_POST['date'];
-    $height = $_POST['height'];
-    $weight = $_POST['weight'];
-    $blood_grp = $_POST['blood-grp'];
-    $query = "INSERT INTO record(Email, Name, Goal, Workout_lvl, Diet, DOB, Height, Weight, Blood_Group)
+  $email = $_POST['email'];
+  $name = $_POST['name'];
+  $goal = $_POST['goal'];
+  $workout_lvl = $_POST['workout_lvl'];
+  $diet = $_POST['diet'];
+  $dob = $_POST['date'];
+  $height = $_POST['height'];
+  $weight = $_POST['weight'];
+  $blood_grp = $_POST['blood-grp'];
+  $query = "INSERT INTO record(email, name, goal, workout_lvl, diet, dob, height, weight, blood_group)
     VALUES('$email', '$name', '$goal', '$workout_lvl', '$diet', '$dob', '$height', '$weight', '$blood_grp')";
-    $insert_query = mysqli_query($conn, $query);
-    if ($insert_query) {
-        header("Location:submit.php?info=added");
+  $insert_query = mysqli_query($conn, $query);
+  if ($insert_query) {
+    //send mail
+    $to = '786bhavanarana@gmail.com';
+    $subject = 'client requested for Routine Plan';
+    $message = "Email: $email, Name: $name, Goal: $goal, Workout Level: $workout_lvl, Diet: $diet, DOB: $dob, Height: $height, Weight: $weight, Blood Group: $blood_grp ";
+    $header = '4bhavanarana@gmail.com';
+    if (mail($to, $subject, $message, $header)) {
+      header("Location:submit.php?info=added");
     } else {
-        echo 'Failed to Submitted';
+      echo "Oops Try Again";
     }
+  } else {
+    echo "Fail to submit";
+  }
 }
-?>
