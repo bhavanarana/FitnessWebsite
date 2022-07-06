@@ -16,15 +16,15 @@
       <div class="content col-xl-6">
         <div class="form-heading"><span id="hidden-heading">Get Your</span> Personalized Chart</div>
         <form class="row g-3" action="" method="POST">
-          <div class="col-md-6">
+          <div class="col-md-4">
             <label for="email" class="form-label">Email</label>
             <input type="email" class="form-control" name="email">
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <label for="name" class="form-label">Full Name</label>
             <input type="text" class="form-control" name="name">
           </div>
-          <div class="col-12">
+          <div class="col-md-4 ">
             <label for="goal" class="form-label">Goal</label>
             <input type="text" class="form-control" name="goal">
           </div>

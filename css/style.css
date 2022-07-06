@@ -1089,13 +1089,13 @@ body {
     font-size: 16px;
   }
   .form-container .form-row .content input {
-    width: 280px;
+    width: 200px;
     height: 30px;
   }
   .form-container .form-row .content select {
     background-color: white;
     color: black;
-    width: 280px;
+    width: 200px;
     height: 30px;
     font-size: 14px;
   }
