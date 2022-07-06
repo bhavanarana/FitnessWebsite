@@ -35,7 +35,7 @@
             <h5 class="card-title reduce-head-card">Weight Loss</h5>
             <p class="card-text reduce-text-card">1200 Calorie foods with Meal Plan</p>
             <div class="text-center">
-              <a href="#" class="btn btn-primary nonveg-reduce-button">View</a>
+              <a href="../Images/dietchart/nonvegfatlossdiet.pdf" class="btn btn-primary nonveg-reduce-button">View</a>
             </div>
           </div>
         </div>
