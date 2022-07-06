@@ -702,7 +702,11 @@ body {
     font-size: 16px;
     display: none;
   }
-  .container-veg .row-veg .nonveg-reduce-card .reduce-body .nonveg-reduce-button {
+  .container-veg
+    .row-veg
+    .nonveg-reduce-card
+    .reduce-body
+    .nonveg-reduce-button {
     color: black !important;
     background-color: #ffe600;
     font-weight: 600 !important;
@@ -785,7 +789,11 @@ body {
     font-size: 16px;
     display: none;
   }
-  .container-veg .row-veg .nonveg-reduce-card .reduce-body .nonveg-reduce-button {
+  .container-veg
+    .row-veg
+    .nonveg-reduce-card
+    .reduce-body
+    .nonveg-reduce-button {
     color: black !important;
     background-color: #ffe600;
     font-weight: 600 !important;
@@ -824,8 +832,12 @@ body {
   height: 119px;
   margin-top: 20px;
 }
-.container-workout .row-workout .workout-card .workout-card-body .workout-button {
-  background-color: #8B0000;
+.container-workout
+  .row-workout
+  .workout-card
+  .workout-card-body
+  .workout-button {
+  background-color: #8b0000;
   color: #ffffff;
   font-size: 10px;
   width: 70px;
@@ -835,7 +847,11 @@ body {
   padding-bottom: 18px;
   border-radius: 20px;
 }
-.container-workout .row-workout .workout-card .workout-card-body .workout-button {
+.container-workout
+  .row-workout
+  .workout-card
+  .workout-card-body
+  .workout-button {
   display: none;
 }
 .container-workout .row-workout .workout-text {
@@ -878,8 +894,12 @@ body {
     height: 80px;
     margin-top: 20px;
   }
-  .container-workout .row-workout .workout-card .workout-card-body .workout-button {
-    background-color: #8B0000;
+  .container-workout
+    .row-workout
+    .workout-card
+    .workout-card-body
+    .workout-button {
+    background-color: #8b0000;
     color: #ffffff;
     font-size: 8px;
     width: 50px;
@@ -887,7 +907,11 @@ body {
     margin-top: -12px;
     padding-bottom: 15px;
   }
-  .container-workout .row-workout .workout-card .workout-card-body .workout-button {
+  .container-workout
+    .row-workout
+    .workout-card
+    .workout-card-body
+    .workout-button {
     display: none;
   }
   .container-workout .row-workout .workout-text {
@@ -1099,4 +1123,12 @@ body {
     height: 30px;
     font-size: 14px;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
+.submit-button {
+  font-weight: 500 !important;
+  font-size: 20px;
+  margin-top: 10px;
+  background-color: #a91313 !important;
+  color: white !important;
+  border-radius: 13px;
+}

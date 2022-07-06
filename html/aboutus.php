@@ -31,7 +31,7 @@
       </div>
       <div class="col-lg-2"></div>
       <div class="col-lg-12 d-flex justify-content-center">
-        <a href="https://www.linkedin.com/in/bhavanaranaindia/" class="btn about-button">Know Me More</a>
+        <a target="_blank" href="https://www.linkedin.com/in/bhavanaranaindia/" class="btn about-button">Know Me More</a>
       </div>
     </div>
   </div>
