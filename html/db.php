@@ -22,7 +22,7 @@ if (isset($_POST['submit'])) {
   $insert_query = mysqli_query($conn, $query);
   if ($insert_query) {
     //send mail
-    $to = '786bhavanarana@gmail.com';
+    $to = 'gamingriot56@gmail.com';
     $subject = 'client requested for Routine Plan';
     $message = "Email: $email, Name: $name, Goal: $goal, Workout Level: $workout_lvl, Diet: $diet, DOB: $dob, Height: $height, Weight: $weight, Blood Group: $blood_grp ";
     $header = '4bhavanarana@gmail.com';
